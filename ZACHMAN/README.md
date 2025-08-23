@@ -1,5 +1,5 @@
 # FRAMEWORK DE ZACHMAN
-
+## FRAMEWORK DE ZACHMAN
 **Framework de Zachman**, también conocido como **Zachman Framework for Enterprise Architecture**, que es uno de los marcos de referencia más influyentes en **arquitectura empresarial**.
 
 El **Framework de Zachman** es una **matriz de clasificación** que organiza la arquitectura empresarial a partir de **6 perspectivas (filas)** y **6 dimensiones (columnas)**, permitiendo alinear estrategia, negocio y tecnología de manera estructurada.
@@ -133,4 +133,5 @@ Cada fila representa un **nivel de abstracción** o **punto de vista**:
 El **Framework de Zachman** permite alinear **ISO 27001:2022** con todas las dimensiones de la organización, asegurando que la **estrategia, los procesos y la tecnología** estén en coherencia con los objetivos de seguridad.
 
 ---
+
 
