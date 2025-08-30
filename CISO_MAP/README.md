@@ -9,9 +9,24 @@ El póster está diseñado para ayudar a los líderes cibernéticos a construir 
 
 </div>
 
+---
  ## 1
- ## 2
- ## 3
- ## 4
- ## 5
+ 
+---
+## 2
+
+---
+
+## 3
+
+ 
+---
+
+## 4
+
+ 
+---
+
+## 5
+
 
