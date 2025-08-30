@@ -45,5 +45,6 @@ Control de acceso basado en roles – RBAC
 Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimientos, además, exige un control estricto sobre quien puede tener acceso a la información.
 
   
-![](acceso.jpg)
+![](Acceso.jpg)
+
 
