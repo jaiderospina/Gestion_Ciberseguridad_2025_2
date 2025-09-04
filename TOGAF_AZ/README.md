@@ -1,5 +1,8 @@
 # Parcial Tercer Corte: Aplicación de TOGAF en Ciberseguridad
 
+
+![ s ]( images/togaf_library.png)
+
 ## Propósito del Trabajo
 El objetivo principal de este trabajo es aplicar el marco de arquitectura empresarial **TOGAF (The Open Group Architecture Framework)** para diseñar y gestionar la ciberseguridad en una organización. A través de un enfoque práctico y colaborativo, los estudiantes de la Maestría en Ciberseguridad y Ciberdefensa aprenderán a alinear la estrategia de seguridad con los objetivos de negocio mediante la aplicación de las fases del **Architecture Development Method (ADM)**. Este trabajo combina teoría y práctica para desarrollar una arquitectura de ciberseguridad coherente, adaptable y alineada con las necesidades organizacionales.
 
@@ -101,4 +104,5 @@ Cada grupo creará un cuestionario con:
 - Utilizar recursos disponibles en internet, especialmente en [The Open Group](https://www.opengroup.org/). Se recomienda crear una cuenta para acceder a materiales oficiales.
 - Hacer uso responsable de herramientas de inteligencia artificial para el desarrollo del proyecto.
 - El repositorio de GitHub debe reflejar un enfoque colaborativo y profesional, integrando imágenes, diagramas, enlaces y tablas para un recurso dinámico.
+
 
