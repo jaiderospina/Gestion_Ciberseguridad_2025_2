@@ -54,7 +54,7 @@ Definir documentación que establezca los lineamientos y buenas prácticas que l
 
 ## 5
 
-GESTIÓN DE ACCESO E IDENTIDAD
+# GESTIÓN DE ACCESO E IDENTIDAD
 
 CISO: 
 Es importante porque eleva la función técnica a una estrategia de negocio
@@ -65,7 +65,7 @@ Definición de la estrategia: Visión a largo plazo para la gestión de acceso c
 Adopta el modelo zero trust
 Aplicación de – MFA
 Integra el single sign – on
-Control de acceso basado en roles – RBAC
+Control de acceso basado en roles – **RBAC**
 
 Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimientos, además, exige un control estricto sobre quien puede tener acceso a la información.
 
@@ -74,6 +74,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
