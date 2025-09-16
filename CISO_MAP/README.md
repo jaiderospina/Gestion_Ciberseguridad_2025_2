@@ -22,7 +22,9 @@ Proceso sistemático para identificar, analizar, evaluar y tratar riesgos que pu
 
 Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptable para la organización.
 
-![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Gesti%C3%B3n%20del%20riesgo.png?raw=true))
+<div align="center">
+![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Gesti%C3%B3n%20del%20riesgo.png?raw=true)
+</div>
 
 2. Importancia para el CISO
 
@@ -35,7 +37,8 @@ Ofrece visibilidad a la alta dirección sobre decisiones basadas en riesgos y no
 Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
 
 <div align="center">
-![](Importancia CISO.png)
+![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Importancia%20CISO.png?raw=true)
+</div>
 
 3. Conceptos Clave y Ejemplos
 a) Gestión de Evaluación de Riesgos
@@ -64,7 +67,8 @@ Ejemplo: Activar un sitio alterno en la nube tras la caída del centro de datos 
 
 <div align="center">
   
-![](Ejemplos componentes.png)
+![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Ejemplos%20componentes.png?raw=true)
+</div>
 
 4. Mensaje Final
 
@@ -127,6 +131,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
