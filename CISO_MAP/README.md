@@ -24,6 +24,7 @@ Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptabl
 
 <div align="center">
 <img width="592" height="600" alt="Image" src="https://github.com/user-attachments/assets/13292a7c-6942-45c6-9d9e-7b5f6736f7c6" />
+</div>
 
 2. Importancia para el CISO
 
@@ -37,7 +38,7 @@ Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
 
 <div align="center">
 <img width="841" height="576" alt="Image" src="https://github.com/user-attachments/assets/372da423-b11f-449b-81a2-94c7c9a6bdfc" />
-
+</div>
 
 3. Conceptos Clave y Ejemplos
 a) Gestión de Evaluación de Riesgos
@@ -72,6 +73,8 @@ Ejemplo: Activar un sitio alterno en la nube tras la caída del centro de datos 
 4. Mensaje Final
 
 La gestión del riesgo no es solo una tarea técnica, es un pilar estratégico que permite al CISO proteger los activos críticos y garantizar la resiliencia de la organización frente a amenazas emergentes.
+
+</div>
 
 ## 3
 
@@ -130,6 +133,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
