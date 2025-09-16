@@ -22,6 +22,8 @@ Proceso sistemático para identificar, analizar, evaluar y tratar riesgos que pu
 
 Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptable para la organización.
 
+![](Gestión del riesgo.png)
+
 2. Importancia para el CISO
 
 Permite alinear la seguridad con los objetivos del negocio.
@@ -31,6 +33,8 @@ Facilita la priorización de recursos frente a riesgos críticos.
 Ofrece visibilidad a la alta dirección sobre decisiones basadas en riesgos y no en percepciones.
 
 Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
+
+![](Importancia CISO.png)
 
 3. Conceptos Clave y Ejemplos
 a) Gestión de Evaluación de Riesgos
@@ -56,6 +60,8 @@ d) Recuperación de Desastres (DRP)
 Definición: Conjunto de procedimientos para restaurar sistemas críticos después de incidentes graves (ciberataques, fallas técnicas, desastres naturales).
 
 Ejemplo: Activar un sitio alterno en la nube tras la caída del centro de datos principal por un incendio.
+
+![](Ejemplos componentes.png)
 
 4. Mensaje Final
 
@@ -118,6 +124,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
