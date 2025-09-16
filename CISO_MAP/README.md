@@ -22,8 +22,7 @@ Proceso sistemático para identificar, analizar, evaluar y tratar riesgos que pu
 
 Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptable para la organización.
 
-<div align="center">
-![](Gestión del riesgo.png)
+![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Gesti%C3%B3n%20del%20riesgo.png?raw=true))
 
 2. Importancia para el CISO
 
@@ -128,6 +127,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
