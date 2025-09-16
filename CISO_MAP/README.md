@@ -14,8 +14,52 @@ El póster está diseñado para ayudar a los líderes cibernéticos a construir 
  
 ---
 ## 2
+Temática: Gestión del Riesgo en Ciberseguridad
+1. ¿Qué es la Gestión del Riesgo?
 
----
+Definición:
+Proceso sistemático para identificar, analizar, evaluar y tratar riesgos que puedan afectar los activos de información y la continuidad del negocio.
+
+Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptable para la organización.
+
+2. Importancia para el CISO
+
+Permite alinear la seguridad con los objetivos del negocio.
+
+Facilita la priorización de recursos frente a riesgos críticos.
+
+Ofrece visibilidad a la alta dirección sobre decisiones basadas en riesgos y no en percepciones.
+
+Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
+
+3. Conceptos Clave y Ejemplos
+a) Gestión de Evaluación de Riesgos
+
+Definición: Proceso de identificar amenazas, vulnerabilidades, impactos y probabilidad para medir el nivel de riesgo.
+
+Ejemplo: Evaluar el riesgo de un ataque de ransomware sobre servidores financieros y establecer controles (backups cifrados, segmentación de red).
+
+b) Seguridad Física
+
+Definición: Conjunto de controles para proteger las instalaciones, hardware y personal frente a accesos no autorizados o daños.
+
+Ejemplo: Uso de controles biométricos y CCTV en el centro de datos.
+
+c) Gestión de Vulnerabilidades
+
+Definición: Proceso continuo de identificación, priorización y remediación de debilidades en sistemas y aplicaciones.
+
+Ejemplo: Uso de Tenable.SC o Qualys para escanear servidores y aplicar parches críticos.
+
+d) Recuperación de Desastres (DRP)
+
+Definición: Conjunto de procedimientos para restaurar sistemas críticos después de incidentes graves (ciberataques, fallas técnicas, desastres naturales).
+
+Ejemplo: Activar un sitio alterno en la nube tras la caída del centro de datos principal por un incendio.
+
+4. Mensaje Final
+
+La gestión del riesgo no es solo una tarea técnica, es un pilar estratégico que permite al CISO proteger los activos críticos y garantizar la resiliencia de la organización frente a amenazas emergentes.
 
 ## 3
 
@@ -74,6 +118,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
