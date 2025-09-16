@@ -23,7 +23,7 @@ Proceso sistemático para identificar, analizar, evaluar y tratar riesgos que pu
 Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptable para la organización.
 
 <div align="center">
-![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Gesti%C3%B3n%20del%20riesgo.png?raw=true)
+<img width="592" height="600" alt="Image" src="https://github.com/user-attachments/assets/13292a7c-6942-45c6-9d9e-7b5f6736f7c6" />
 
 2. Importancia para el CISO
 
@@ -36,7 +36,7 @@ Ofrece visibilidad a la alta dirección sobre decisiones basadas en riesgos y no
 Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
 
 <div align="center">
-![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Importancia%20CISO.png?raw=true)
+<img width="841" height="576" alt="Image" src="https://github.com/user-attachments/assets/372da423-b11f-449b-81a2-94c7c9a6bdfc" />
 
 
 3. Conceptos Clave y Ejemplos
@@ -66,7 +66,7 @@ Ejemplo: Activar un sitio alterno en la nube tras la caída del centro de datos 
 
 <div align="center">
   
-![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Ejemplos%20componentes.png?raw=true)
+<img width="984" height="516" alt="Image" src="https://github.com/user-attachments/assets/1d608fcd-da1d-4d65-a344-8ec44e3ba8c9" />
 </div>
 
 4. Mensaje Final
@@ -130,6 +130,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
