@@ -24,7 +24,6 @@ Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptabl
 
 <div align="center">
 ![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Gesti%C3%B3n%20del%20riesgo.png?raw=true)
-</div>
 
 2. Importancia para el CISO
 
@@ -38,7 +37,7 @@ Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
 
 <div align="center">
 ![](https://github.com/jaiderospina/Gestion_Ciberseguridad_2025_2/blob/main/CISO_MAP/Importancia%20CISO.png?raw=true)
-</div>
+
 
 3. Conceptos Clave y Ejemplos
 a) Gestión de Evaluación de Riesgos
@@ -131,6 +130,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
