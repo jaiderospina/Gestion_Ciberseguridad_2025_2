@@ -22,6 +22,7 @@ Proceso sistemático para identificar, analizar, evaluar y tratar riesgos que pu
 
 Enfoque: busca reducir la probabilidad e impacto de amenazas a un nivel aceptable para la organización.
 
+<div align="center">
 ![](Gestión del riesgo.png)
 
 2. Importancia para el CISO
@@ -34,6 +35,7 @@ Ofrece visibilidad a la alta dirección sobre decisiones basadas en riesgos y no
 
 Contribuye al cumplimiento normativo (ISO 27001, NIST, GDPR, etc.).
 
+<div align="center">
 ![](Importancia CISO.png)
 
 3. Conceptos Clave y Ejemplos
@@ -61,6 +63,8 @@ Definición: Conjunto de procedimientos para restaurar sistemas críticos despu�
 
 Ejemplo: Activar un sitio alterno en la nube tras la caída del centro de datos principal por un incendio.
 
+<div align="center">
+  
 ![](Ejemplos componentes.png)
 
 4. Mensaje Final
@@ -124,6 +128,7 @@ Gobernanza y Cumplimiento: Establece las políticas, estándares y procedimiento
 ![](Acceso.jpg)
 
 </div>
+
 
 
 
