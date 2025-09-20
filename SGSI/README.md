@@ -39,6 +39,54 @@ Como parte integral de la ciberseguridad, el SGSI debe definir procesos claros d
 
 El SGSI representa, por tanto, una herramienta fundamental para cualquier organización que busque establecer un marco robusto de ciberseguridad, proporcionando estructura, sistematización y mejora continua en la protección de sus activos de información más valiosos.
 
+
+## DOFA
+¿Qué es DOFA?
+El análisis DOFA es una herramienta fundamental de planificación estratégica que permite evaluar la situación actual de una organización, empresa, proyecto o incluso a nivel personal. DOFA es un acrónimo que proviene de las siglas Debilidades, Oportunidades, Fortalezas y Amenazas, también conocido internacionalmente como SWOT (Strengths, Weaknesses, Opportunities, Threats).
+
+**Definición y Propósito**
+Se trata de una herramienta de diagnóstico y análisis para la generación creativa de posibles estrategias a partir de la identificación de factores internos y externos que intervienen en el desempeño de una organización. Su objetivo principal es determinar las ventajas competitivas de la empresa bajo análisis y definir la estrategia genérica que más le convenga en función de sus características propias y las del mercado donde opera.
+
+**Componentes del Análisis DOFA**
+## Variables Internas (Controlables)
+
+Las **variables internas** son aquellos factores que están bajo el control directo de la organización y sobre los cuales puede tomar decisiones para modificarlos o mejorarlos. Estas incluyen:
+
+### Fortalezas
+Son los **elementos positivos de la organización**, capacidades o recursos especiales que la hacen fuerte ante otras empresas. Ejemplos incluyen:[1]
+- Equipo profesional con amplia experiencia
+- Notoriedad de marca a nivel nacional
+- Red de distribución establecida
+- Especialización de producto.
+
+### Debilidades
+Se trata de **factores negativos** que tiene la empresa y generan una posición no favorable comparada con otras organizaciones. Ejemplos incluyen:
+- Falta de financiación
+- Costos unitarios elevados
+- Escasa diferenciación con ciertos productos
+- Limitaciones en volúmenes de producción.
+
+## Variables Externas (No Controlables)
+
+Las **variables externas** son factores que se generan en el entorno y están fuera del control inmediato de la organización. Una forma práctica de identificarlas es preguntarse: "¿existiría este factor incluso si mi empresa no existiera?" Si la respuesta es sí, entonces es un factor externo.
+
+### Oportunidades
+Son **factores positivos** del entorno que resultan favorables y que pueden ser aprovechados por la organización. Ejemplos incluyen:
+- Tendencia favorable en el mercado
+- Aparición de nuevos segmentos
+- Posibilidad de establecer alianzas estratégicas
+- Utilización de nuevos canales de venta.
+
+### Amenazas
+Son **situaciones generadas en el entorno** que ponen en riesgo a las organizaciones. Ejemplos incluyen:
+- Entrada de nuevos competidores
+- Competencia actual agresiva
+- Nueva legislación que afecta el sector
+- Cambios de hábitos de los consumidores.
+
+Esta división permite a las organizaciones enfocar sus estrategias de manera diferenciada: optimizando y corrigiendo los factores internos que controlan, mientras se adaptan y responden estratégicamente a los factores externos del entorno.
+
+
 # Matriz RACI Simplificada para Implementación de SGSI
 
 ## Roles y Responsabilidades en la Implementación del Sistema de Gestión de Seguridad de la Información
@@ -88,4 +136,5 @@ El SGSI representa, por tanto, una herramienta fundamental para cualquier organi
 - Esta matriz debe adaptarse según el tamaño y estructura organizacional específica de cada empresa
 - En organizaciones pequeñas, algunos roles pueden ser asumidos por la misma persona
 - Es fundamental revisar y actualizar la matriz periódicamente conforme evoluciona el SGSI
+
 
