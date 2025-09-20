@@ -53,7 +53,7 @@ Se trata de una herramienta de diagnóstico y análisis para la generación crea
 Las **variables internas** son aquellos factores que están bajo el control directo de la organización y sobre los cuales puede tomar decisiones para modificarlos o mejorarlos. Estas incluyen:
 
 ### Fortalezas
-Son los **elementos positivos de la organización**, capacidades o recursos especiales que la hacen fuerte ante otras empresas. Ejemplos incluyen:[1]
+Son los **elementos positivos de la organización**, capacidades o recursos especiales que la hacen fuerte ante otras empresas. Ejemplos incluyen:
 - Equipo profesional con amplia experiencia
 - Notoriedad de marca a nivel nacional
 - Red de distribución establecida
@@ -136,5 +136,6 @@ Esta división permite a las organizaciones enfocar sus estrategias de manera di
 - Esta matriz debe adaptarse según el tamaño y estructura organizacional específica de cada empresa
 - En organizaciones pequeñas, algunos roles pueden ser asumidos por la misma persona
 - Es fundamental revisar y actualizar la matriz periódicamente conforme evoluciona el SGSI
+
 
 
