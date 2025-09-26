@@ -204,6 +204,94 @@ Aplicar el marco TOGAF (fases Preliminar y A) para diseñar una arquitectura de 
 - ISO/IEC 27001:2022 – Sistemas de Gestión de Seguridad de la Información
 - NIST Cybersecurity Framework (CSF)
 
+# TOGAF – Grupo 4  - David Ballesteros, Sebastian Camacho, Santiago Sahid
+## Aplicación del Framework TOGAF en Ciberseguridad para Coates Group
+
+[Visita la página oficial de Coates Group](https://coatesgroup.com/)
+
+---
+
+## 1. Contexto de Coates Group y su Signage Software
+Coates Group ofrece la plataforma **Switchboard™ CMS**, un sistema de digital-signage que gestiona la creación, distribución y monitoreo de contenido en miles de pantallas para QSR y retail.
+
+Principales retos de ciberseguridad:
+- Integridad y disponibilidad del contenido (menús, precios).
+- Protección de credenciales y API keys usadas por kioscos y players.
+- Cumplimiento normativo multinacional (PCI-DSS, GDPR, LGPD).
+
+## 2. Marco TOGAF aplicado a la Implementación y Gestión del Cambio
+
+| Fase ADM | Objetivo clave | Enfoque de ciberseguridad en Coates |
+|----------|----------------|-------------------------------------|
+| **E – Oportunidades & Soluciones** | Traducir arquitecturas a iniciativas realizables | Identificar *quick wins* que eleven la postura de seguridad |
+| **F – Planificación de la Migración** | Elaborar roadmap y gestionar riesgos | Detallar proyectos, dependencias, costos y contingencias |
+| **G – Gobierno de la Implementación** | Asegurar cumplimiento de la arquitectura | Definir controles, KPIs y procesos de excepción |
+
+## 3. Fase E – Oportunidades y Soluciones
+### 3.1 Análisis de brechas
+- Falta de MFA para operadores.  
+- Tráfico TLS 1.1 entre players y backend (obsoleto).  
+- Auditoría de cambios retenida sólo 30 días.
+
+### 3.2 Soluciones priorizadas
+
+| Prioridad | Solución | Valor de negocio / Riesgo mitigado |
+|-----------|----------|------------------------------------|
+| Alta | Migrar a **TLS 1.3** | Reduce superficie de ataque en tránsito. |
+| Alta | Implementar **MFA** (TOTP/FIDO2) | Previene secuestro de cuentas. |
+| Media | Desplegar **SIEM** con correlación nube-edge | Detección temprana de anomalías. |
+| Media | Ampliar retención de logs a 1 año (WORM) | Cumplimiento y forense. |
+| Baja | Hardening CIS-L2 en players Linux | Blinda nodos de borde. |
+
+### 3.3 Matriz de priorización
+
+| Solución | Valor negocio | Riesgo reducido | Esfuerzo | Puntaje |
+|----------|--------------:|----------------:|---------:|--------:|
+| TLS 1.3  | 5 | 5 | 2 | **8** |
+| MFA      | 5 | 4 | 3 | **7** |
+| SIEM     | 4 | 4 | 4 | 6 |
+| Logs     | 3 | 3 | 2 | 4 |
+| Hardening| 2 | 3 | 4 | 3 |
+
+## 4. Fase F – Planificación de la Migración
+
+### 4.1 Roadmap de proyectos
+
+gantt
+dateFormat YYYY-MM
+section 2025
+TLS 1.3 :a1, 2025-10, 2m
+MFA Portal :a2, after a1, 3m
+section 2026
+SIEM Deploy :b1, 2026-01, 4m
+Log Retention Upgrade :b2, after b1, 1m
+Player Hardening :c1, 2026-02, 5m
+
+### 4.2 Gestión de riesgos
+
+> **⚠️ Riesgos críticos**  
+> - Incompatibilidad de hardware antiguo con TLS 1.3 → *Mitigación:* laboratorio de pruebas, fallback TLS 1.2 temporal.  
+> - Resistencia de usuarios a MFA → *Mitigación:* campaña de comunicación y pilotos.  
+> - Sobrecarga SecOps por SIEM → *Mitigación:* MSSP de apoyo 6 meses.
+
+## 5. Fase G – Gobierno de la Implementación
+
+### 5.1 Estructura de gobernanza
+- **Architecture Steering Committee (ASC)**: CISO, CIO, Arquitecto EA, Líder DevSecOps.  
+- **Change Control Board (CCB)**: aprueba excepciones y cambios.  
+- **Security Champions** en cada squad.
+
+### 5.2 Procesos clave
+1. *Architecture Compliance Review* con checklist (TLS 1.3, MFA, logging).  
+2. Pase a producción condicionado a evidencia en Jira.  
+3. KPIs mensuales al ASC: % tráfico TLS 1.3, % usuarios con MFA, MTTR incidentes SIEM.
+
+### 5.3 Herramientas de soporte
+- Modelos **ArchiMate** versionados en Git.  
+- Diagramas **PlantUML** para flujos.  
+- **GitHub Actions** que ejecutan SCA y OWASP ZAP en *pull requests*.
+
+
 
 
 
