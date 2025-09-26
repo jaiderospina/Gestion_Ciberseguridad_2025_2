@@ -140,6 +140,70 @@ Otras posibles razones para querer adaptar el ADM incluyen:
 -Es complementario y apoya otros procesos de gestión de programas estándar, como los de autorización, gestión de riesgos, planificación y presupuestación empresarial, planificación del desarrollo, desarrollo de sistemas y adquisiciones.
 -El ADM está siendo obligatorio para el uso de un contratista principal o líder en una situación de subcontratación y debe ser adaptado para lograr un compromiso adecuado entre las prácticas existentes del contratista y los requisitos de la empresa contratante.
 
+# Grupo 2
+
+# 🏛️ TOGAF – Fases Preliminar y A
+## Maestría en Ciberseguridad y Ciberdefensa – Grupo 2
+Caso Práctico: Banco Digital Seguro S.A.S.
+
+---
+
+## 📖 Objetivo
+Aplicar el marco TOGAF (fases Preliminar y A) para diseñar una arquitectura de ciberseguridad alineada con los objetivos de negocio.
+
+---
+
+## 🧩 Fase Preliminar – Preparación
+
+| **Elemento**        | **Descripción** |
+|---------------------|----------------|
+| **Alcance**         | Core bancario, apps móviles, nube híbrida, SOC y procesos críticos de autenticación y monitoreo. |
+| **Stakeholders**    | 👤 CEO • 🛡️ CISO • 🖥️ CIO • 🏛️ Comité de Riesgos • 📜 Compliance • 🧑‍💻 DevSecOps |
+| **Principios**      | 🔐 Zero Trust • 🛡️ Defensa en profundidad • ✅ Cumplimiento ISO 27001/NIST CSF • 🔄 Mejora continua |
+| **Entregables**     | 📄 Documento de Principios • 🗺️ Mapa de Stakeholders • 📅 Plan de Trabajo de Arquitectura |
+
+![Image](https://github.com/user-attachments/assets/9daac1cc-fab3-4485-ae58-d50a39c751ee)
+
+---
+
+## 🎯 Fase A – Visión de la Arquitectura
+
+| **Elemento**        | **Descripción** |
+|---------------------|----------------|
+| **Objetivo**        | Crear una visión de alto nivel de la arquitectura de ciberseguridad alineada con los objetivos de negocio. |
+| **Alcance**         | Core bancario, aplicaciones móviles, nube híbrida, SOC, monitoreo 24/7 y procesos críticos de autenticación y transacciones. |
+| **Stakeholders**    | 👤 CEO • 🛡️ CISO • 🖥️ CIO • 🏛️ Comité de Riesgos • 📜 Compliance • 🧑‍💻 DevSecOps • 👥 Clientes |
+| **Riesgos Clave**   | 🦠 Ransomware • 🎣 Phishing • 🏦 Fraude transaccional • 🔗 Ataques a la cadena de suministro |
+| **Entregables**     | 📄 Architecture Vision Document • 🗺️ Mapa de Objetivos y Stakeholders • 🏗️ Diagrama Conceptual de Alto Nivel • 📊 Definición de KPIs |
+
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/58835f9c-4d44-4761-bbf2-d8e41e7264cb" /> 
+
+---
+
+## 🏢 Caso Práctico – Banco Digital Seguro S.A.S.
+
+- **Misión:** Democratizar la banca digital para usuarios no bancarizados.
+- **Visión de Seguridad:** Ser la Fintech más confiable de LATAM.
+- **KPIs:** 99.99% disponibilidad, cero brechas de datos, cumplimiento ISO 27001, MTTR < 30 min.
+- **Amenazas Relevantes:** Ransomware, phishing, fraude transaccional, ataques a la cadena de suministro.
+
+---
+
+## 🗺️ Diagramas y Roadmap
+
+- Mapa de Stakeholders (RACI Matrix)
+- High-Level Security Architecture
+- Roadmap de Implementación: Diagnóstico → Quick Wins → Hardening → SOC & Automatización
+
+
+---
+
+## 🔗 Recursos y Bibliografía
+
+- [TOGAF Standard – The Open Group](https://www.opengroup.org/togaf)
+- ISO/IEC 27001:2022 – Sistemas de Gestión de Seguridad de la Información
+- NIST Cybersecurity Framework (CSF)
+
 
 
 
