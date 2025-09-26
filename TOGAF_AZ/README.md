@@ -125,7 +125,7 @@ El Estándar **TOGAF** es desarrollado y mantenido por miembros del Foro de Arqu
 
 2. **¿Cuál es la estructura básica?**
 
-### **Puntos clave** ![ s ]( images/imagen3.png)
+### **Puntos clave**
 -**El ADM es iterativo, a lo largo de todo el proceso, entre fases y dentro de las fases.**
 -**Para cada iteración del ADM, se debe tomar una nueva decisión en cuanto a amplitud de la cobertura, nivel de detalle, extensión del periodo de tiempo y los activos arquitectónicos que se aprovecharan.**
 -**Las decisiones deben basarse en una evaluación práctica de la disponibilidad de recursos y competencias, y del valor que se puede esperar realistamente que la empresa obtenga del alcance elegido del trabajo de arquitectura.**
