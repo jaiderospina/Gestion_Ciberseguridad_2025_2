@@ -106,3 +106,47 @@ Cada grupo creará un cuestionario con:
 - El repositorio de GitHub debe reflejar un enfoque colaborativo y profesional, integrando imágenes, diagramas, enlaces y tablas para un recurso dinámico.
 
 
+
+# TOGAF: Introducción al estandar TOGAF
+
+## Componentes Principales
+
+### ¿Qué es TOGAF?
+
+El Estándar TOGAF es el **estándar de Arquitectura Empresarial** más destacado y confiable, garantizando la coherencia de estándares, métodos y comunicación entre los profesionales de la Arquitectura Empresarial. 
+
+### ¿Quién lo desarrollo?
+
+El Estándar **TOGAF** es desarrollado y mantenido por miembros del Foro de Arquitectura de The Open Group. El desarrollo original del Estándar TOGAF, Versión 1, en 1995, se basó en el Marco de Arquitectura Técnica para la Gestión de la Información (TAFIM) del Departamento de Defensa de los Estados Unidos. Partiendo de esta sólida base, el Foro de Arquitectura de The Open Group ha desarrollado sucesivas versiones del estándar, cada una publicada en su sitio web.
+
+## **¿Cómo ayuda el TOGAF?**
+
+1. El Estándar TOGAF,**10.ª Edición**, facilita la adopción de las mejores prácticas. Le mostrará dónde encontrar conceptos universales y duraderos, así como las mejores prácticas comprobadas, y también le indicará dónde buscar nuevas ideas emergentes
+
+2. **¿Cuál es la estructura básica?**
+
+### **Puntos clave** ![ s ]( images/imagen3.png)
+-**El ADM es iterativo, a lo largo de todo el proceso, entre fases y dentro de las fases.**
+-**Para cada iteración del ADM, se debe tomar una nueva decisión en cuanto a amplitud de la cobertura, nivel de detalle, extensión del periodo de tiempo y los activos arquitectónicos que se aprovecharan.**
+-**Las decisiones deben basarse en una evaluación práctica de la disponibilidad de recursos y competencias, y del valor que se puede esperar realistamente que la empresa obtenga del alcance elegido del trabajo de arquitectura.**
+-**Como método genérico, el ADM está destinado a ser utilizado por empresas en una amplia variedad de geografías diferentes y aplicado en diferentes sectores verticales/tipos de industrias.**
+
+## **Adaptación del ADM**
+
+El ADM es un método genérico para el desarrollo de arquitectura, diseñado para abordar la mayoría de los requisitos del sistema y de la organización. Sin embargo, a menudo será necesario modificarlo o ampliarlo para adaptarlo a necesidades específicas. Una de las tareas previas a la aplicación del ADM es revisar sus componentes para comprobar su aplicabilidad y adaptarlos a las circunstancias de cada empresa. Esta actividad puede generar un ADM específico para cada empresa.
+
+Otras posibles razones para querer adaptar el ADM incluyen:
+-El ADM es uno de los muchos procesos corporativos que conforman el modelo de gobierno corporativo
+-Es complementario y apoya otros procesos de gestión de programas estándar, como los de autorización, gestión de riesgos, planificación y presupuestación empresarial, planificación del desarrollo, desarrollo de sistemas y adquisiciones.
+-El ADM está siendo obligatorio para el uso de un contratista principal o líder en una situación de subcontratación y debe ser adaptado para lograr un compromiso adecuado entre las prácticas existentes del contratista y los requisitos de la empresa contratante.
+
+
+
+
+
+
+
+
+
+
+
