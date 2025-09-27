@@ -356,6 +356,9 @@ Principales retos de ciberseguridad:
 
 ## Contexto Extenso: HidroTech y la Ciberseguridad de Infraestructura Crítica
 
+https://www.youtube.com/watch?v=nq70X1TPRRA
+
+
 <img src="images/5_Agua.jpg" alt="Agua Potable" width="900">
 
 ### 1. El Imperativo Estratégico y de Salud Pública
@@ -569,6 +572,7 @@ Se enfoca en desarrollar la Arquitectura Tecnológica de destino, definiendo el 
 ## ¿Cómo se diseña la infraestructura técnica que soporte los controles de ciberseguridad?
 
 <img width="329" height="248" alt="imagen" src="https://github.com/user-attachments/assets/3899a605-66eb-44eb-83c7-fc77f6016f49" />
+
 
 
 
