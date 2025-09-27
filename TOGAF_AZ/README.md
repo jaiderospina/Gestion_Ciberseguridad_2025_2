@@ -204,7 +204,7 @@ Requisitos de interoperabilidad describe una técnica para determinar los requis
 
 
 ##**Video Metodología TOGAF**
-[![Mira el video en YouTube](https://img.youtube.com/vi/ID_DEL_VIDEO/hqdefault.jpg)](https:youtu.be/U51P_uAdYag)
+https://img.youtube.com/vi/ID_DEL_VIDEO/hqdefault.jpg)](https:youtu.be/U51P_uAdYag
 
 ##Estudiantes: Ayda Castro, Johan Tamara, Natalia Forero
 
