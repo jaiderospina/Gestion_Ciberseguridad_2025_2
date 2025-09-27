@@ -391,6 +391,21 @@ En esencia, la Fase H es vital para garantizar la evolución continua y la resil
 
 <img src="images/5_H.jpg" alt="Tabla Fase H" width="800">
 
+Escenarios de Activación del ADM
+La imagen ilustra cómo la Fase H (Gestión del Cambio Arquitectónico) monitorea el entorno para convertir eventos críticos en acciones de diseño. Estos escenarios fuerzan el inicio de nuevos ciclos del ADM:
+1.	Innovación (Medidores IoT): Un cambio interno (miles de puntos de acceso inalámbrico) genera una superficie de ataque ampliada. La acción es diseñar un nuevo Sistema IAM para dispositivos.
+2.	Amenaza Externa (Ransomware): Un evento externo (ataque similar desactiva bombas) revela una arquitectura de respaldos insuficiente. La acción es diseñar una solución DRP aislado.
+3.	Auditoría (Acceso Remoto): La retroalimentación de una auditoría expone una política de proveedores deficiente. La acción es implementar un Jump Box con PoLP (Principio del Mínimo Privilegio).
+
+<img src="images/5_Escenarios.png" alt="Tabla Fase H" width="800">
+
+La sinergia entre la Fase H de TOGAF y la Gestión de Requisitos crea un Marco Integrado que garantiza la Resiliencia Operacional. Este marco asegura la Protección de la salud pública y la Continuidad del servicio crítico a través de la evolución tecnológica segura y el cumplimiento normativo.
+En resumen, la arquitectura de ciberseguridad deja de ser una barrera operacional para convertirse en un habilitador estratégico del negocio.
+
+
+<img src="images/Conclusion.png" alt="Tabla Fase H" width="700">
+
+
 
 # GRUPO 3
 ## Integrantes
@@ -554,6 +569,7 @@ Se enfoca en desarrollar la Arquitectura Tecnológica de destino, definiendo el 
 ## ¿Cómo se diseña la infraestructura técnica que soporte los controles de ciberseguridad?
 
 <img width="329" height="248" alt="imagen" src="https://github.com/user-attachments/assets/3899a605-66eb-44eb-83c7-fc77f6016f49" />
+
 
 
 
