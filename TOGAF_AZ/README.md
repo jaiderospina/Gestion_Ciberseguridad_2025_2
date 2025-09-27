@@ -366,7 +366,8 @@ La arquitectura de HidroTech está definida por la tradicional segmentación IT/
 •	Red OT (Zona de Alto Riesgo): Contiene los servidores SCADA y las estaciones de ingeniería. La prioridad es la latencia mínima y la disponibilidad. Cualquier control de seguridad que introduzca un retraso de más de 50 milisegundos puede comprometer un ciclo de control físico. Esto limita drásticamente las opciones de seguridad a controles pasivos y de alta velocidad.
 •	Red TI (Zona Corporativa): Maneja la facturación, los correos electrónicos y los sistemas administrativos. Aunque sufre ataques de phishing comunes, un fallo aquí no detiene las bombas.
 
-<img src="images/ROADMAPMERMAIDGANTT-Agua.png" alt="Plan de migración" width="900">
+<img src="images/Agua.png" alt="Agua Potable" width="900">
+
 
 
 
