@@ -258,9 +258,9 @@ Principales retos de ciberseguridad:
 ### 4.1 Roadmap de proyectos
 
 %%{init: {
-  'theme': 'base',
-  'themeVariables': { 'fontSize': '18px', 'fontFamily': 'Arial' },
-  'gantt': { 'fontSize': 18, 'sectionFontSize': 20 }
+  "theme": "base",
+  "themeVariables": { "fontSize": "18px", "fontFamily": "Arial" },
+  "gantt": { "fontSize": 18, "sectionFontSize": 20 }
 }}%%
 gantt
 title Plan de migración (2025–2026)
@@ -299,6 +299,7 @@ Player Hardening   :c1, 2026-02, 5m
 - Modelos **ArchiMate** versionados en Git.  
 - Diagramas **PlantUML** para flujos.  
 - **GitHub Actions** que ejecutan SCA y OWASP ZAP en *pull requests*.
+
 
 
 
