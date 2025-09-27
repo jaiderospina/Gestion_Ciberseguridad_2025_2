@@ -106,8 +106,11 @@ Cada grupo creará un cuestionario con:
 - El repositorio de GitHub debe reflejar un enfoque colaborativo y profesional, integrando imágenes, diagramas, enlaces y tablas para un recurso dinámico.
 
 
-
+#Grupo1
 # TOGAF: Introducción al estandar TOGAF
+
+
+![ s ]( images/imagen1.png)
 
 ## Componentes Principales
 
@@ -119,26 +122,85 @@ El Estándar TOGAF es el **estándar de Arquitectura Empresarial** más destacad
 
 El Estándar **TOGAF** es desarrollado y mantenido por miembros del Foro de Arquitectura de The Open Group. El desarrollo original del Estándar TOGAF, Versión 1, en 1995, se basó en el Marco de Arquitectura Técnica para la Gestión de la Información (TAFIM) del Departamento de Defensa de los Estados Unidos. Partiendo de esta sólida base, el Foro de Arquitectura de The Open Group ha desarrollado sucesivas versiones del estándar, cada una publicada en su sitio web.
 
+
 ## **¿Cómo ayuda el TOGAF?**
 
 1. El Estándar TOGAF,**10.ª Edición**, facilita la adopción de las mejores prácticas. Le mostrará dónde encontrar conceptos universales y duraderos, así como las mejores prácticas comprobadas, y también le indicará dónde buscar nuevas ideas emergentes
 
 2. **¿Cuál es la estructura básica?**
 
-### **Puntos clave**
--**El ADM es iterativo, a lo largo de todo el proceso, entre fases y dentro de las fases.**
--**Para cada iteración del ADM, se debe tomar una nueva decisión en cuanto a amplitud de la cobertura, nivel de detalle, extensión del periodo de tiempo y los activos arquitectónicos que se aprovecharan.**
--**Las decisiones deben basarse en una evaluación práctica de la disponibilidad de recursos y competencias, y del valor que se puede esperar realistamente que la empresa obtenga del alcance elegido del trabajo de arquitectura.**
--**Como método genérico, el ADM está destinado a ser utilizado por empresas en una amplia variedad de geografías diferentes y aplicado en diferentes sectores verticales/tipos de industrias.**
+![ s ]( images/imagen2.png)
+
+### **Puntos clave** ![ s ]( images/imagen3.png)
+- **El ADM es iterativo, a lo largo de todo el proceso, entre fases y dentro de las fases.**
+- **Para cada iteración del ADM, se debe tomar una nueva decisión en cuanto a amplitud de la cobertura, nivel de detalle, extensión del periodo de tiempo y los activos arquitectónicos que se aprovecharan.**
+- **Las decisiones deben basarse en una evaluación práctica de la disponibilidad de recursos y competencias, y del valor que se puede esperar realistamente que la empresa obtenga del alcance elegido del trabajo de arquitectura.**
+- **Como método genérico, el ADM está destinado a ser utilizado por empresas en una amplia variedad de geografías diferentes y aplicado en diferentes sectores verticales/tipos de industrias.**
 
 ## **Adaptación del ADM**
 
 El ADM es un método genérico para el desarrollo de arquitectura, diseñado para abordar la mayoría de los requisitos del sistema y de la organización. Sin embargo, a menudo será necesario modificarlo o ampliarlo para adaptarlo a necesidades específicas. Una de las tareas previas a la aplicación del ADM es revisar sus componentes para comprobar su aplicabilidad y adaptarlos a las circunstancias de cada empresa. Esta actividad puede generar un ADM específico para cada empresa.
 
 Otras posibles razones para querer adaptar el ADM incluyen:
--El ADM es uno de los muchos procesos corporativos que conforman el modelo de gobierno corporativo
--Es complementario y apoya otros procesos de gestión de programas estándar, como los de autorización, gestión de riesgos, planificación y presupuestación empresarial, planificación del desarrollo, desarrollo de sistemas y adquisiciones.
--El ADM está siendo obligatorio para el uso de un contratista principal o líder en una situación de subcontratación y debe ser adaptado para lograr un compromiso adecuado entre las prácticas existentes del contratista y los requisitos de la empresa contratante.
+- El ADM es uno de los muchos procesos corporativos que conforman el modelo de gobierno corporativo
+- Es complementario y apoya otros procesos de gestión de programas estándar, como los de autorización, gestión de riesgos, planificación y presupuestación empresarial, planificación del desarrollo, desarrollo de sistemas y adquisiciones.
+- El ADM está siendo obligatorio para el uso de un contratista principal o líder en una situación de subcontratación y debe ser adaptado para lograr un compromiso adecuado entre las prácticas existentes del contratista y los requisitos de la empresa contratante.
+
+## **Fases del ADM**
+
+Tiene 9 fases, que permiten que la metodología se realice de manera optima: 
+
+**Preliminar:** Establecimiento de la Capacidad y Gobernanza. Asegurar que la seguridad esté integrada desde el inicio del marco arquitectónico.
+
+**Fase A:** Visión de la Arquitectura Aprobación de la Dirección y Definición de la Visión. Obtener el respaldo de la dirección ejecutiva, reconociendo la tensión entre la función empresarial y la ejecución de la política de seguridad.
+
+** Fase B:**  Arquitectura de Negocios Identificación de Riesgos y Valor a Proteger. Asegurar que las decisiones de seguridad se basen en la confianza establecida y la responsabilidad en el mundo real.
+
+** Fase C:**  Arquitecturas de Sistemas de Información (Datos y Aplicaciones) Diseño de Seguridad en Componentes y Datos. La seguridad debe ser diseñada en los elementos de datos desde el principio y no puede añadirse más tarde.
+
+** Fase D:**  Arquitectura de Tecnología Garantía de Cualidades de Servicio (QoS). Asegurar que la infraestructura tecnológica soporte los requisitos de seguridad y disponibilidad.
+
+** Fase E:**  Oportunidades y Soluciones Planificación Estratégica de la Mitigación y Reutilización. Consolidar las deficiencias para priorizar paquetes de trabajo que mitiguen riesgos.
+
+** Fase F:**  Planificación de la Migración.  Aseguramiento del Valor del Negocio. Confirmar que el valor (incluida la mitigación de riesgos) de la implementación de la seguridad justifica el costo
+** Fase G:**  Gobernanza de la Implementación . Garantía de Cumplimiento de la Arquitectura. La conformidad con el ADM es fundamental para la gobernanza, asegurando que todas las consideraciones de seguridad se lleven a cabo.
+
+** Fase H:**  Gestión del Cambio de la Arquitectura. Adaptación Continua y Lecciones Aprendidas. Gestionar los cambios en los requisitos de seguridad impulsados por nuevas amenazas o regulaciones
+
+
+## **Técnicas del ADM** ![ s ]( images/imagen4.png)
+
+1. Principios de Arquitectura describe los principios para el uso y despliegue de recursos de TI en toda la empresa, y cómo desarrollar el conjunto de reglas y directrices generales para la arquitectura que se está desarrollando.
+
+2. Stakeholder Management describe la gestión de las partes interesadas, una disciplina importante que los profesionales de la arquitectura exitosa pueden utilizar para ganar apoyo para sus proyectos.
+
+3. Patrones de Arquitectura proporciona orientación sobre el uso de patrones arquitectónicos.
+
+4. Gap Analysis describe la técnica conocida como análisis de brechas; se utiliza ampliamente en el TOGAF ADM para validar una arquitectura que se está desarrollando
+Requisitos de interoperabilidad describe una técnica para determinar los requisitos de interoperabilidad
+
+5. Business Transformation Readiness Assessment describe una técnica para identificar problemas de transformación empresarial
+
+6. Gestión de riesgos describe una técnica para gestionar el riesgo durante un proyecto de transformación de arquitectura/empresa
+
+7. Alternativas de Arquitectura y Comercio-Offs describe una técnica para identificar Arquitecturas Target alternativas y realizar compensaciones entre las alternativas
+
+##**Los Cuatro Dominios de la Arquitectura**
+
+- **Arquitectura de Negocios (Business Architecture - Fase B):** Define la estrategia empresarial, la gobernanza, la organización y los procesos clave del negocio. El conocimiento de la Arquitectura de Negocios es un requisito previo para el trabajo de arquitectura en cualquier otro dominio.
+
+- **3. Arquitectura de Aplicaciones (Application Architecture - Fase C):** Proporciona un modelo para las aplicaciones individuales a desplegar, sus interacciones y su relación con los procesos de negocio de la organización
+
+- **Arquitectura de Datos (Data Architecture - Fase C):** Describe la estructura de los activos de datos lógicos y físicos de una organización y los recursos de gestión de datos. Se enfoca en la semántica de los datos de la organización, no en el diseño de una base de datos
+
+- **Arquitectura de Tecnología (Technology Architecture - Fase D):** Describe las capacidades de software y hardware lógicos y estándares requeridos para apoyar el despliegue de servicios de negocio, datos y aplicaciones. Esto incluye la infraestructura de TI, middleware, redes, comunicaciones, procesamiento y estándares
+
+
+
+##**Video Metodología TOGAF**
+[![Mira el video en YouTube](https://img.youtube.com/vi/ID_DEL_VIDEO/hqdefault.jpg)](https:youtu.be/U51P_uAdYag)
+
+##Estudiantes: Ayda Castro, Johan Tamara, Natalia Forero
 
 # Grupo 2
 
@@ -282,16 +344,6 @@ Principales retos de ciberseguridad:
 - Modelos **ArchiMate** versionados en Git.  
 - Diagramas **PlantUML** para flujos.  
 - **GitHub Actions** que ejecutan SCA y OWASP ZAP en *pull requests*.
-
-
-
-
-
-
-
-
-
-
 
 
 
