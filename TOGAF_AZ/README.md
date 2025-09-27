@@ -371,8 +371,25 @@ La arquitectura de HidroTech está definida por la tradicional segmentación IT/
 •	Red OT (Zona de Alto Riesgo): Contiene los servidores SCADA y las estaciones de ingeniería. La prioridad es la latencia mínima y la disponibilidad. Cualquier control de seguridad que introduzca un retraso de más de 50 milisegundos puede comprometer un ciclo de control físico. Esto limita drásticamente las opciones de seguridad a controles pasivos y de alta velocidad.
 •	Red TI (Zona Corporativa): Maneja la facturación, los correos electrónicos y los sistemas administrativos. Aunque sufre ataques de phishing comunes, un fallo aquí no detiene las bombas.
 
-<img src="images/5_Tabla1.png" alt="Tabla Fase H" width="500">
+<img src="images/5_Tabla1.png" alt="Tabla Fase H" width="700">
 
+Gestión de Requisitos de Seguridad (El "Qué" y el "Cómo")
+Este proceso es la base que traduce las necesidades del negocio y las amenazas en soluciones de seguridad específicas.
+
+<img src="images/5_Tabla2.png" alt="Tabla Fase H" width="800">
+
+Funcionalidad Esencial de la Fase H
+La Fase H actúa como la última etapa del ciclo de desarrollo de la arquitectura (ADM) y, simultáneamente, como el disparador de un nuevo ciclo. Su proceso se centra en:
+
+Monitoreo Proactivo: Vigila constantemente los cambios internos (ej., nuevos proyectos IoT) y externos (ej., amenazas de ransomware) que puedan impactar la arquitectura diseñada.
+
+Análisis de Impacto: Evalúa si un cambio detectado puede manejarse con ajustes menores o si requiere un rediseño fundamental de la arquitectura.
+
+Activación ADM: Si el cambio es significativo (ej., una nueva regulación o una vulneración grave de la política), la Fase H genera una solicitud formal, reiniciando el ciclo ADM en la Fase A (Visión) para planificar y diseñar una solución estratégica.
+
+En esencia, la Fase H es vital para garantizar la evolución continua y la resiliencia operativa de la organización.
+
+<img src="images/5_H.png" alt="Tabla Fase H" width="800">
 
 
 
