@@ -403,7 +403,7 @@ La sinergia entre la Fase H de TOGAF y la Gestión de Requisitos crea un Marco I
 En resumen, la arquitectura de ciberseguridad deja de ser una barrera operacional para convertirse en un habilitador estratégico del negocio.
 
 
-<img src="images/Conclusion.png" alt="Tabla Fase H" width="700">
+<img src="images/5_Conclusion.png" alt="Conclusion" width="700">
 
 
 
@@ -569,6 +569,7 @@ Se enfoca en desarrollar la Arquitectura Tecnológica de destino, definiendo el 
 ## ¿Cómo se diseña la infraestructura técnica que soporte los controles de ciberseguridad?
 
 <img width="329" height="248" alt="imagen" src="https://github.com/user-attachments/assets/3899a605-66eb-44eb-83c7-fc77f6016f49" />
+
 
 
 
