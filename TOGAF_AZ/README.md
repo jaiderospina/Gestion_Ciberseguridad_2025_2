@@ -392,6 +392,173 @@ En esencia, la Fase H es vital para garantizar la evolución continua y la resil
 <img src="images/5_H.jpg" alt="Tabla Fase H" width="800">
 
 
+# GRUPO 3
+## Integrantes
+
+Laura Gutierrez
+Carolina Salinas
+Fabián Gómez
+
+# La Fase B: Arquitectura de Negocio
+
+Establecer una visión integral del negocio de la Electrificadora Andina, detallando la estructura organizativa (Dirección General, Operaciones, Comercial, TI, Seguridad), los procesos de negocio críticos (distribución de energía, facturación, gestión de clientes, mantenimiento y proveedores), los objetivos estratégicos (continuidad del servicio, resiliencia, protección de datos y cumplimiento normativo) y las relaciones entre áreas TI–OT que soportan la operación.
+
+## Objetivo principal de la Fase B
+
+-Definir la arquitectura de negocio candidata
+-Alinear la arquitectura con la estrategia
+-Considerar el valor de negocio
+-Identificar los elementos clave del negocio
+
+## Actividades FASE B
+
+<img width="1257" height="576" alt="imagen" src="https://github.com/user-attachments/assets/860c75e5-3cd2-40e3-860c-c832e6d72f18" />
+
+
+## Resultados de B |Arquitectura del negocio 
+1. Modelo organizacional: integración entre áreas de negocio, TI y OT bajo una gobernanza común de seguridad y operación.
+2. Procesos clave de negocio digitalizados: facturación automatizada, autoservicio en línea, gestión de reclamos y soporte remoto.
+3. Servicios nuevos: plataforma digital para que los clientes consulten consumos, reporten fallas y generen pagos electrónicos seguros.
+4. Operación crítica: red SCADA fortalecida con monitoreo de ciberseguridad en tiempo real.
+
+## Resultado: un negocio más ágil, resiliente y alineado con las metas estratégicas de confiabilidad y continuidad energética.
+
+## Definición de las necesidades de negocio
+Se identifican claramente las prioridades que deben ser cubiertas
+
+1. Mayor resiliencia operativa ante ciberataques y desastres naturales
+
+2. Mejor experiencia del cliente: autoservicio digital, tiempos de respuesta más cortos y comunicación directa de fallas.
+
+3. Cumplimiento regulatorio: reportes automáticos de calidad del servicio exigidos por la CREG.
+
+4. Optimización de costos: reducción de pérdidas técnicas y no técnicas mediante analítica de datos y sistemas inteligentes.
+
+5. Gestión del talento: capacitación de personal en nuevas tecnologías de seguridad industrial y digitalización.
+
+## Un entendimiento compartido
+
+Se logra alinear a todos los interesados en torno a la arquitectura:
+
+- La Gerencia General entiende que invertir en ciberseguridad y digitalización no es un gasto, sino una protección al negocio.
+- El área operativa (ingenieros eléctricos) y el área TI reconocen la importancia de trabajar juntos en la seguridad de sistemas SCADA.
+- Los proveedores tecnológicos y aliados estratégicos comparten un modelo de integración para garantizar la interoperabilidad.
+- Los clientes y entes reguladores perciben transparencia y mejora en la calidad del servicio.
+
+## ¿Cómo se modelan los procesos de negocio?
+Tiene como objetivo representar cómo la organización ejecuta sus operaciones, qué actores intervienen y cómo se alinean los procesos con las metas estratégicas.
+
+-Mapas jerárquicos para la visión integral de áreas.
+-Catálogos de procesos con responsables, objetivos y KPI.
+-Diagramas BPMN para detallar flujos críticos como facturación o gestión de fallas.
+-Diagramas ArchiMate para conectar procesos con TI–OT, aplicaciones y datos.
+-Matrices Actor–Función para clarificar responsabilidades.
+
+## ¿Cómo se identifican los requisitos de seguridad a nivel de negocio? 
+
+Los requisitos de seguridad a nivel de negocio se identifican como parte del diseño de la Arquitectura de Negocio (Fase B) y luego se refinan en la Arquitectura de Sistemas de Información y Tecnología (Fases C y D).
+
+Los requisitos de seguridad a nivel de negocio se identifican a partir de:
+-Estrategia (continuidad, resiliencia, cumplimiento).
+-Procesos críticos (distribución, facturación, clientes, mantenimiento).
+-Riesgos y amenazas.
+-Dimensiones de seguridad (CIA, continuidad, trazabilidad).
+-Documentación en catálogos y matrices TOGAF.
+
+# La Fase C: Desarrollar la Arquitectura de la Información 
+
+Se centra en el desarrollo de las arquitecturas de sistemas de información objetivo, es decir, la arquitectura de datos y la arquitectura de aplicaciones, identificando los componentes de la hoja de ruta de arquitectura basándose en las diferencias con la arquitectura de línea base. Esta fase es crucial para definir el estado futuro de las arquitecturas de datos y aplicaciones, y su interacción con el resto de dominios, asegurando que la arquitectura de negocio se mantenga coherente y alineada con las necesidades del negocio. 
+
+## Objetivo principal de la Fase C
+
+<img width="433" height="62" alt="imagen" src="https://github.com/user-attachments/assets/d867869b-c8d1-4b66-b9d7-ced6e5e0c84e" />
+
+<img width="893" height="447" alt="imagen" src="https://github.com/user-attachments/assets/1cc63950-6d07-4b94-9663-4fd9a40ecbfa" />
+
+<img width="497" height="179" alt="imagen" src="https://github.com/user-attachments/assets/1ba02bf0-4b40-4d03-89df-db9b9c3da383" />
+
+
+## Hoja de ruta
+
+<img width="910" height="492" alt="imagen" src="https://github.com/user-attachments/assets/df8f621a-a84f-4e16-8450-009214d6881a" />
+
+## Actividades clave en la Fase C
+
+-Selección de Referencias
+-Definición de Vistas
+-Identificación de Deficiencias
+-Considerar Interacciones
+
+## Resultados de la Fase C
+
+-Modelos de arquitectura de datos y aplicaciones objetivo
+-Componentes de la hoja de ruta
+-Consideraciones de desarrollo
+
+## ACTIVIDADES FASE C
+<img width="845" height="293" alt="imagen" src="https://github.com/user-attachments/assets/200ad572-aa9c-4c86-9ab1-4a09838cfbd7" />
+
+
+## Resultados Fase C
+
+<img width="689" height="318" alt="imagen" src="https://github.com/user-attachments/assets/81616686-577b-4dc8-9a90-75debebae13e" />
+
+## ¿Arquitecturas de datos y aplicaciones?
+-Base de datos centralizada de clientes, contratos y consumos.
+-Integración de datos de medidores inteligentes (IoT).
+-Almacén de datos (Data Warehouse) para analítica y predicción de demanda.
+
+## ¿Cómo se diseñan modelos de datos seguros y se integra la seguridad en el ciclo de vida de desarrollo de software? 
+Modelos de datos seguros
+1. Clasificación de datos: Crítico (OT/SCADA), Confidencial (PII, pagos), Interno, Público.
+2. Electrificadora Andina:
+-Portal de clientes: tokenización y masking.
+-Medidores inteligentes: TLS + segmentación OT.
+-SCADA: control de acceso con PAM (Gestión de accesos privilegiados) + auditoría.
+
+Seguridad en el SDLC (DevSecOps)
+1. Requerimientos: incluir seguridad y regulaciones desde el inicio.
+2. Diseño:  validación de arquitecturas.
+3. Desarrollo: secure coding, análisis de dependencias, sin secretos en código.
+4. CI/CD: SAST, SCA, DAST, escaneo de infraestructura y contenedores.
+5. Operación: monitoreo con SIEM,  gestión de vulnerabilidades y respuesta a incidentes.
+
+# La Fase D: Arquitectura de Tecnología
+
+Se enfoca en desarrollar la Arquitectura Tecnológica de destino, definiendo el hardware, software y las tecnologías de comunicación necesarias para soportar las arquitecturas lógicas de datos y aplicaciones. Su objetivo es crear el modelo de infraestructura que permita la transformación digital, asegurando que sea escalable, segura y cumpla con los objetivos de la empresa, y para ello se utilizan los resultados de fases previas como las arquitecturas de datos y aplicaciones.
+
+## ¿Qué es la Arquitectura Tecnológica?
+
+-Es una descripción de su cartera de infraestructura completa que le indica cuándo comprar infraestructura y cuándo usar esta infraestructura. 
+-Nos dice dónde poner los límites entre los sistemas. 
+-Nos dice cómo abordará su ciclo de vida.
+
+<img width="531" height="449" alt="imagen" src="https://github.com/user-attachments/assets/b9189e27-e259-4244-8d4c-39ca5e89acfb" />
+
+## Objetivo principal de la Fase D
+
+<img width="402" height="142" alt="imagen" src="https://github.com/user-attachments/assets/925c82a2-0c91-4ff3-9692-533cd6ed2e5e" />
+
+## Beneficios
+-Asegura que la infraestructura tecnológica esté alineada con el negocio
+-Reduce riesgos de incompatibilidad tecnológica
+-Facilita la transición hacia entornos modernos (cloud, edge, IoT, ciberseguridad).
+-Define estándares que mejoran la gobernanza de TI.
+
+<img width="695" height="330" alt="imagen" src="https://github.com/user-attachments/assets/b28849d9-8649-4728-8e49-ed65229ae39c" />
+
+## ¿Cómo se seleccionan las tecnologías de seguridad? 
+
+<img width="235" height="232" alt="imagen" src="https://github.com/user-attachments/assets/4de06e9c-0c2b-4b8e-932e-0172dfc513aa" />
+
+## ¿Cómo se diseña la infraestructura técnica que soporte los controles de ciberseguridad?
+
+<img width="329" height="248" alt="imagen" src="https://github.com/user-attachments/assets/3899a605-66eb-44eb-83c7-fc77f6016f49" />
+
+
+
+
+
 
 
 
