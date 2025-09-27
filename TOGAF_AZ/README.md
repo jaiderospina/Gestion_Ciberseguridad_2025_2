@@ -106,7 +106,8 @@ Cada grupo creará un cuestionario con:
 - El repositorio de GitHub debe reflejar un enfoque colaborativo y profesional, integrando imágenes, diagramas, enlaces y tablas para un recurso dinámico.
 
 
-#Grupo1
+# Grupo1
+
 # TOGAF: Introducción al estandar TOGAF
 
 
@@ -131,7 +132,10 @@ El Estándar **TOGAF** es desarrollado y mantenido por miembros del Foro de Arqu
 
 ![ s ]( images/imagen2.png)
 
-### **Puntos clave** ![ s ]( images/imagen3.png)
+### **Puntos clave**
+
+![ s ]( images/imagen3.png)
+
 - **El ADM es iterativo, a lo largo de todo el proceso, entre fases y dentro de las fases.**
 - **Para cada iteración del ADM, se debe tomar una nueva decisión en cuanto a amplitud de la cobertura, nivel de detalle, extensión del periodo de tiempo y los activos arquitectónicos que se aprovecharan.**
 - **Las decisiones deben basarse en una evaluación práctica de la disponibilidad de recursos y competencias, y del valor que se puede esperar realistamente que la empresa obtenga del alcance elegido del trabajo de arquitectura.**
@@ -168,7 +172,9 @@ Tiene 9 fases, que permiten que la metodología se realice de manera optima:
 ** Fase H:**  Gestión del Cambio de la Arquitectura. Adaptación Continua y Lecciones Aprendidas. Gestionar los cambios en los requisitos de seguridad impulsados por nuevas amenazas o regulaciones
 
 
-## **Técnicas del ADM** ![ s ]( images/imagen4.png)
+## **Técnicas del ADM** 
+
+![ s ]( images/imagen4.png)
 
 1. Principios de Arquitectura describe los principios para el uso y despliegue de recursos de TI en toda la empresa, y cómo desarrollar el conjunto de reglas y directrices generales para la arquitectura que se está desarrollando.
 
