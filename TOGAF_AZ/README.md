@@ -376,7 +376,7 @@ La arquitectura de HidroTech está definida por la tradicional segmentación IT/
 Gestión de Requisitos de Seguridad (El "Qué" y el "Cómo")
 Este proceso es la base que traduce las necesidades del negocio y las amenazas en soluciones de seguridad específicas.
 
-<img src="images/5_Tabla2.png" alt="Tabla Fase H" width="800">
+<img src="images/5_Tabla2.jpg" alt="Tabla Fase H" width="800">
 
 Funcionalidad Esencial de la Fase H
 La Fase H actúa como la última etapa del ciclo de desarrollo de la arquitectura (ADM) y, simultáneamente, como el disparador de un nuevo ciclo. Su proceso se centra en:
@@ -390,6 +390,7 @@ Activación ADM: Si el cambio es significativo (ej., una nueva regulación o una
 En esencia, la Fase H es vital para garantizar la evolución continua y la resiliencia operativa de la organización.
 
 <img src="images/5_H.jpg" alt="Tabla Fase H" width="800">
+
 
 
 
