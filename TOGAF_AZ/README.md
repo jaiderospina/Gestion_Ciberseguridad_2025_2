@@ -389,7 +389,8 @@ Activación ADM: Si el cambio es significativo (ej., una nueva regulación o una
 
 En esencia, la Fase H es vital para garantizar la evolución continua y la resiliencia operativa de la organización.
 
-<img src="images/5_H.png" alt="Tabla Fase H" width="800">
+<img src="images/5_H.jpg" alt="Tabla Fase H" width="800">
+
 
 
 
