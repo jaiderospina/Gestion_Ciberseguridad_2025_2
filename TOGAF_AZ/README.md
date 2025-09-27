@@ -257,15 +257,24 @@ Principales retos de ciberseguridad:
 
 ### 4.1 Roadmap de proyectos
 
+%%{init: {
+  'theme': 'base',
+  'themeVariables': { 'fontSize': '18px', 'fontFamily': 'Arial' },
+  'gantt': { 'fontSize': 18, 'sectionFontSize': 20 }
+}}%%
 gantt
+title Plan de migración (2025–2026)
 dateFormat YYYY-MM
+axisFormat %Y-%m
+
 section 2025
-TLS 1.3 :a1, 2025-10, 2m
-MFA Portal :a2, after a1, 3m
+TLS 1.3            :a1, 2025-10, 2m
+MFA Portal         :a2, after a1, 3m
+
 section 2026
-SIEM Deploy :b1, 2026-01, 4m
+SIEM Deploy        :b1, 2026-01, 4m
 Log Retention Upgrade :b2, after b1, 1m
-Player Hardening :c1, 2026-02, 5m
+Player Hardening   :c1, 2026-02, 5m
 
 ### 4.2 Gestión de riesgos
 
@@ -290,6 +299,7 @@ Player Hardening :c1, 2026-02, 5m
 - Modelos **ArchiMate** versionados en Git.  
 - Diagramas **PlantUML** para flujos.  
 - **GitHub Actions** que ejecutan SCA y OWASP ZAP en *pull requests*.
+
 
 
 
