@@ -356,7 +356,7 @@ Principales retos de ciberseguridad:
 
 ## Contexto Extenso: HidroTech y la Ciberseguridad de Infraestructura Crítica
 
-<img src="images/5_Agua.png" alt="Agua Potable" width="900">
+<img src="images/5_Agua.jpg" alt="Agua Potable" width="900">
 
 ### 1. El Imperativo Estratégico y de Salud Pública
 HidroTech no es una empresa de tecnología, sino una de servicios esenciales. Sus sistemas de control industrial (OT), que gestionan desde la captación de agua hasta la distribución final, son activos críticos nacionales. Cualquier interrupción o manipulación de estos sistemas se traduce inmediatamente en un riesgo para la salud pública (por la dosificación incorrecta de químicos) o una crisis urbana (por la interrupción del suministro).
@@ -367,6 +367,7 @@ El contexto de HidroTech se define por dos presiones simultáneas:
 La arquitectura de HidroTech está definida por la tradicional segmentación IT/OT, pero esta barrera se está volviendo porosa:
 •	Red OT (Zona de Alto Riesgo): Contiene los servidores SCADA y las estaciones de ingeniería. La prioridad es la latencia mínima y la disponibilidad. Cualquier control de seguridad que introduzca un retraso de más de 50 milisegundos puede comprometer un ciclo de control físico. Esto limita drásticamente las opciones de seguridad a controles pasivos y de alta velocidad.
 •	Red TI (Zona Corporativa): Maneja la facturación, los correos electrónicos y los sistemas administrativos. Aunque sufre ataques de phishing comunes, un fallo aquí no detiene las bombas.
+
 
 
 
