@@ -2,6 +2,8 @@
 
 https://docs.google.com/spreadsheets/d/1ldvW31e03wBMgiBrcDRlgJ4-xb8xnlLPhLg4McmeZlI/edit?usp=sharing
 
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDMxMDU2OWItNTdhMi00ZTQxLThjZTEtMGU2YzM3ZDI0YjRi%40thread.v2/0?context=%7b%22Tid%22%3a%22d82636be-6dd2-4e64-a284-7a3402f24e27%22%2c%22Oid%22%3a%22137c447c-b071-41d4-babf-21571e86df8a%22%7d
+
 
 # Parcial Tercer Corte: Aplicación de TOGAF en Ciberseguridad
 
@@ -577,6 +579,7 @@ Se enfoca en desarrollar la Arquitectura Tecnológica de destino, definiendo el 
 ## ¿Cómo se diseña la infraestructura técnica que soporte los controles de ciberseguridad?
 
 <img width="329" height="248" alt="imagen" src="https://github.com/user-attachments/assets/3899a605-66eb-44eb-83c7-fc77f6016f49" />
+
 
 
 
