@@ -4,7 +4,7 @@
 
 ## Analizar las técnicas asignadas usando el Anexo B. ##
 
-    ### Análisis Multicriterio (AMC) ###
+### Análisis Multicriterio (AMC) ###
 
 Esta técnica se utiliza para comparar opciones de manera que las soluciones intermedias (trade-offs) se hagan explícitas. Es una alternativa al análisis de costo/beneficio que no requiere asignar un valor monetario a todos los elementos.
 
@@ -15,7 +15,7 @@ Esta técnica se utiliza para comparar opciones de manera que las soluciones int
 * Análisis experto: En ciberdefensa, el AMC es vital para seleccionar herramientas de seguridad donde factores como la usabilidad, el soporte técnico y el cumplimiento normativo son tan críticos como el precio.
 
 
-  ###	Análisis Multicriterio (AMC) ###
+  ### Análisis Costo/Beneficio  ###
 
 Utiliza el dinero como escala común para estimar las consecuencias positivas y negativas (tangibles e intangibles) de diferentes opciones de decisión.
 
@@ -24,25 +24,25 @@ Utiliza el dinero como escala común para estimar las consecuencias positivas y 
 * Atributos técnicos: Es una técnica cuantitativa que requiere un nivel de esfuerzo y conocimientos especializados de medio a alto.
 *	Análisis experto: Es la herramienta base para justificar el ROI (Retorno de Inversión) en proyectos de infraestructura de seguridad ante la alta dirección.
 
- ## ALARP / ALARA y SFAIRP ##
+ ### ALARP / ALARA y SFAIRP ###
 
 Son criterios para decidir sobre la importancia del riesgo y determinar su tolerabilidad.
 
-	ALARP: As Low As Reasonably Practicable (Tan bajo como sea razonablemente viable).
-	SFAIRP: So Far As Is Reasonably Practicable (Siempre y cuando sea razonablemente viable).
-	Aplicación principal: Valoración del riesgo y determinación de si el riesgo es aceptable o requiere tratamiento adicional.
-	Atributos técnicos: Puede ser cualitativa o cuantitativa y requiere un alto nivel de conocimientos especializados y esfuerzo.
-	Análisis experto: En ciberdefensa, se aplica para determinar el "riesgo residual" aceptable tras implementar controles, reconociendo que eliminar el riesgo al 100% es económicamente inviable.
+*	ALARP: As Low As Reasonably Practicable (Tan bajo como sea razonablemente viable).
+*	SFAIRP: So Far As Is Reasonably Practicable (Siempre y cuando sea razonablemente viable).
+*	Aplicación principal: Valoración del riesgo y determinación de si el riesgo es aceptable o requiere tratamiento adicional.
+*	Atributos técnicos: Puede ser cualitativa o cuantitativa y requiere un alto nivel de conocimientos especializados y esfuerzo.
+*	Análisis experto: En ciberdefensa, se aplica para determinar el "riesgo residual" aceptable tras implementar controles, reconociendo que eliminar el riesgo al 100% es económicamente inviable.
 
-	Índices de Riesgo (Ranking de Riesgos)
+###	Índices de Riesgo (Ranking de Riesgos) ###
 
 Esta técnica clasifica la importancia de los riesgos mediante la aplicación de calificaciones a los factores que influyen en su magnitud.
 
-	Aplicación principal: Comparar y jerarquizar riesgos para priorizar su tratamiento.
-	Atributos técnicos: Es una técnica semicuantitativa. Su uso es sencillo (esfuerzo bajo), pero su desarrollo requiere conocimientos especializados moderados.
-	Análisis experto: Es fundamental en la fase de triaje de vulnerabilidades. Permite a los equipos de seguridad enfocarse en las amenazas críticas (ej. vulnerabilidades críticas en servidores expuestos) antes que en las menores.
+*	Aplicación principal: Comparar y jerarquizar riesgos para priorizar su tratamiento.
+*	Atributos técnicos: Es una técnica semicuantitativa. Su uso es sencillo (esfuerzo bajo), pero su desarrollo requiere conocimientos especializados moderados.
+*	Análisis experto: Es fundamental en la fase de triaje de vulnerabilidades. Permite a los equipos de seguridad enfocarse en las amenazas críticas (ej. vulnerabilidades críticas en servidores expuestos) antes que en las menores.
 
-Comparativo de técnicas: 
+## Comparativo de técnicas: ##
 
 Técnica	Tipo de Datos	Propósito Principal	Complejidad
 AMC	Cualitativo	Decidir entre opciones complejas 	Moderada
