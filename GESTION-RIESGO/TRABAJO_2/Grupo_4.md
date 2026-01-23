@@ -18,12 +18,12 @@ Esta técnica se utiliza para comparar opciones de manera que las soluciones int
 
 Utiliza el dinero como escala común para estimar las consecuencias positivas y negativas (tangibles e intangibles) de diferentes opciones de decisión.
 
-	Aplicación principal: Comparar opciones para seleccionar la más eficiente financieramente.
-	Horizonte de tiempo: Corto o medio plazo.
-	Atributos técnicos: Es una técnica cuantitativa que requiere un nivel de esfuerzo y conocimientos especializados de medio a alto.
-	Análisis experto: Es la herramienta base para justificar el ROI (Retorno de Inversión) en proyectos de infraestructura de seguridad ante la alta dirección.
+* Aplicación principal: Comparar opciones para seleccionar la más eficiente financieramente.
+*	Horizonte de tiempo: Corto o medio plazo.
+* Atributos técnicos: Es una técnica cuantitativa que requiere un nivel de esfuerzo y conocimientos especializados de medio a alto.
+*	Análisis experto: Es la herramienta base para justificar el ROI (Retorno de Inversión) en proyectos de infraestructura de seguridad ante la alta dirección.
 
-	ALARP / ALARA y SFAIRP
+ ## ALARP / ALARA y SFAIRP ##
 
 Son criterios para decidir sobre la importancia del riesgo y determinar su tolerabilidad.
 
