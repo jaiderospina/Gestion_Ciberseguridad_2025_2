@@ -1,4 +1,4 @@
-##MATRIZ##
+## MATRIZ COMPARATIVA DE TÉCNICAS SEMICUANTITATIVAS ##
 | Técnica | Objetivo | Tipo de incertidumbre que aborda | Nivel de complejidad | Ventajas | Limitaciones | Requisitos de información | Nivel de madurez organizacional | Aplicabilidad en ciberseguridad / ciberdefensa |
 |-------|---------|----------------------------------|---------------------|----------|--------------|---------------------------|--------------------------------|-----------------------------------------------|
 | Puntuación de Riesgo | Jerarquizar riesgos mediante un puntaje que integra múltiples factores. | Incertidumbre por múltiples factores que influyen en el riesgo (exposición, controles, criticidad). | Media | Puntaje sencillo para priorizar riesgos; integra múltiples factores en un solo número. | Puede generar falsa sensación de precisión si el modelo no está bien validado. | Análisis del sistema, comprensión de fuentes de riesgo y datos históricos para validación. | Media–Alta | Excelente para priorizar criticidad de activos, debilidades, exposición e impacto operacional. |
