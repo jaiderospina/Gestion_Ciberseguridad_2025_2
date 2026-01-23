@@ -32,7 +32,7 @@ Se conforman 4 grupos, combinando **análisis teórico + aplicación práctica**
 | **Grupo 1** (David Ballesteros) | Técnicas cualitativas y exploratorias          | Lluvia de ideas, entrevistas estructuradas, análisis Delphi, análisis de partes interesadas |
 | **Grupo 2** (Johan Tamara) | Técnicas semicuantitativas                     | Matrices de riesgo, análisis causa–efecto, bow-tie, análisis de escenarios                  |
 | **Grupo 3** (Juan Sebastian)| Técnicas cuantitativas                         | Árboles de eventos, árboles de fallas, simulación Monte Carlo, análisis bayesiano           |
-| **Grupo 4** (Yohana Lambuley)| Técnicas de apoyo a la decisión y priorización | Análisis multicriterio, costo/beneficio, ALARP/ALARA, ranking de riesgos                    |
+| **Grupo 4** (Johana Lambuley)| Técnicas de apoyo a la decisión y priorización | Análisis multicriterio, costo/beneficio, ALARP/ALARA, ranking de riesgos                    |
 
 > Cada grupo trabajará **4–6 técnicas**, seleccionadas del **Anexo B**.
 
@@ -141,4 +141,5 @@ Esta actividad:
 * Reforzar la **interoperabilidad metodológica** entre equipos.
 * Desarrollar habilidades de **briefing técnico**, clave en entornos estratégicos.
 * Alinear la norma ISO 31010 con **operaciones cibernéticas, SOC y toma de decisiones estratégicas**.
+
 
