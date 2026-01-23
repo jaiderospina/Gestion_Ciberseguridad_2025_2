@@ -4,7 +4,7 @@
 
 ## Analizar las técnicas asignadas usando el Anexo B. ##
 
-  * Análisis Multicriterio (AMC)
+    ### Análisis Multicriterio (AMC) ###
 
 Esta técnica se utiliza para comparar opciones de manera que las soluciones intermedias (trade-offs) se hagan explícitas. Es una alternativa al análisis de costo/beneficio que no requiere asignar un valor monetario a todos los elementos.
 
@@ -14,7 +14,8 @@ Esta técnica se utiliza para comparar opciones de manera que las soluciones int
 * Atributos técnicos: Es una técnica principalmente cualitativa que requiere un esfuerzo bajo a medio y conocimientos especializados moderados.
 * Análisis experto: En ciberdefensa, el AMC es vital para seleccionar herramientas de seguridad donde factores como la usabilidad, el soporte técnico y el cumplimiento normativo son tan críticos como el precio.
 
-###	Análisis Multicriterio (AMC) ###
+
+  ###	Análisis Multicriterio (AMC) ###
 
 Utiliza el dinero como escala común para estimar las consecuencias positivas y negativas (tangibles e intangibles) de diferentes opciones de decisión.
 
