@@ -1,6 +1,6 @@
 
 ## NTC-IEC/ISO 31010:2020 ##
-### "Fase 1 – Estudio dirigido y comprensión profunda" ###
+### Fase 1 – Estudio dirigido y comprensión profunda ###
 
 ## Analizar las técnicas asignadas usando el Anexo B. ##
 
@@ -15,7 +15,7 @@ Esta técnica se utiliza para comparar opciones de manera que las soluciones int
 * Análisis experto: En ciberdefensa, el AMC es vital para seleccionar herramientas de seguridad donde factores como la usabilidad, el soporte técnico y el cumplimiento normativo son tan críticos como el precio.
 
 
-  ### Análisis Costo/Beneficio  ###
+### Análisis Costo/Beneficio  ###
 
 Utiliza el dinero como escala común para estimar las consecuencias positivas y negativas (tangibles e intangibles) de diferentes opciones de decisión.
 
@@ -73,9 +73,9 @@ Madurez Organizacional Requerida	Media: Capacidad para definir criterios estrat�
 Aplicabilidad en Ciberseguridad	Selección de soluciones tecnológicas (ej. elegir un EDR vs. otro) basado en múltiples factores técnicos.	Justificación de inversión en ciberdefensa comparando el costo del control frente al ahorro por prevención de incidentes.	Definición de niveles de protección en infraestructuras críticas donde el riesgo residual debe minimizarse al extremo.	Priorización operativa de vulnerabilidades y amenazas en el registro de riesgos del SOC.
 
 
-Fase 2 – Aplicación práctica en escenario de Ciberseguridad/Ciberdefensa
+## Fase 2 – Aplicación práctica en escenario de Ciberseguridad/Ciberdefensa ##
 
-Escenario realista: Operación "Blackout"
+### Escenario realista: Operación "Blackout" ###
 
 Un actor de amenaza tipo APT (respaldado por un Estado o grupo criminal de élite) ha logrado infiltrarse en la red de Tecnología de Operación (OT) de una central hidroeléctrica mediante un compromiso inicial en la red corporativa (IT) vía spear-phishing. El objetivo es el despliegue de un malware diseñado para manipular los Sistemas de Control Supervisorio y Adquisición de Datos (SCADA), provocando una apertura no sincronizada de interruptores que resultaría en daños físicos a las turbinas y un apagón regional prolongado.
 
