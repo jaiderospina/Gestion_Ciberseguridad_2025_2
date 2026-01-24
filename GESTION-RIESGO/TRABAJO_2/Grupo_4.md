@@ -43,6 +43,7 @@ Esta técnica clasifica la importancia de los riesgos mediante la aplicación de
 *	Análisis experto: Es fundamental en la fase de triaje de vulnerabilidades. Permite a los equipos de seguridad enfocarse en las amenazas críticas (ej. vulnerabilidades críticas en servidores expuestos) antes que en las menores.
 
 ## Comparativo de técnicas: ##
+![ s ]( images/Imagen1.png)
 
 Técnica	Tipo de Datos	Propósito Principal	Complejidad
 AMC	Cualitativo	Decidir entre opciones complejas 	Moderada
