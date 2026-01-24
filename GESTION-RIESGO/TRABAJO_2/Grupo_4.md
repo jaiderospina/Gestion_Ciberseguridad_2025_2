@@ -43,7 +43,7 @@ Esta técnica clasifica la importancia de los riesgos mediante la aplicación de
 *	Análisis experto: Es fundamental en la fase de triaje de vulnerabilidades. Permite a los equipos de seguridad enfocarse en las amenazas críticas (ej. vulnerabilidades críticas en servidores expuestos) antes que en las menores.
 
 ## Comparativo de técnicas: ##
-![ s ]( images/Imagen1.png)
+![ s ](Imagen1.png)
 
 Técnica	Tipo de Datos	Propósito Principal	Complejidad
 AMC	Cualitativo	Decidir entre opciones complejas 	Moderada
@@ -52,7 +52,7 @@ ALARP/ALARA	Cualitativo/Cuantitativo	Determinar tolerabilidad del riesgo 	Alta
 Índices de Riesgo	Cualitativo/Cuantitativo	Clasificar y priorizar riesgos 	Baja
 
 Matriz comparativa:
-
+![ s ](Imagen2.png)
 Crear una matriz comparativa que incluya:
 
 o	Objetivo de la técnica
@@ -100,11 +100,8 @@ Criterios utilizados para determinar si el riesgo de un evento es "tan bajo como
 	Justificación ISO 31010: Es la técnica idónea para la valoración del riesgo en sectores donde existen consecuencias para la vida humana y la estabilidad social, proporcionando una base legal y ética para la aceptación del riesgo residual.
 
 Riesgos, incertidumbres y consecuencias
+![ s ](Imagen3.png)
 
-Elemento	Descripción Técnica
-Riesgos	Compromiso de estaciones de ingeniería, alteración de la lógica de los PLC (Controladores Lógicos Programables) y denegación de servicios críticos de energía.
-Incertidumbres	Epistémica: Desconocimiento de vulnerabilidades zero-day poseídas por la APT. Lingüística: Ambigüedad en la interpretación de señales de alerta temprana en el SCADA.
-Consecuencias	Daño físico irreparable a activos críticos, interrupción de servicios de salud/emergencia dependientes de la energía, y pérdida de confianza institucional.
 
 Resultados y limitaciones del ejercicio
 
@@ -123,7 +120,7 @@ Análisis de Consecuencias y Probabilidades
 
 Esta matriz visualiza la importancia relativa de los eventos del ataque para priorizar los controles.
 
-
+![ s ](Mapa Calor4.png)
 
 
 
