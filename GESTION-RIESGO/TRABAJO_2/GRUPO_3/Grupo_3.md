@@ -75,7 +75,7 @@ No modela la evolución temporal del ataque ni la probabilidad dinámica.
 
 #### Diagrama – Árbol de Fallas (FTA)
 
-[![Analisis-de-Arbol-de-Fallos.png](https://i.postimg.cc/3xrrZ2x4/Analisis-de-Arbol-de-Fallos.png)](https://postimg.cc/crjNxgY0)
+[![Arbol-de-Fallas.png](https://i.postimg.cc/d1WvM5vy/Arbol-de-Fallas.png)](https://postimg.cc/sQZb79Mj)
 
 ---
 
