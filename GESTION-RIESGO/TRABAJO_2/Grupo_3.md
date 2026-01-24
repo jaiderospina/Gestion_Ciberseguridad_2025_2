@@ -75,7 +75,7 @@ No modela la evolución temporal del ataque ni la probabilidad dinámica.
 
 #### Diagrama – Árbol de Fallas (FTA)
 
-![Image](GESTION-RIESGO/TRABAJO_2/Análisis de Árbol de Fallos.png)
+[![Analisis-de-Arbol-de-Fallos.png](https://i.postimg.cc/3xrrZ2x4/Analisis-de-Arbol-de-Fallos.png)](https://postimg.cc/crjNxgY0)
 
 ---
 
@@ -100,7 +100,7 @@ Resultados sensibles a la calidad de los datos de entrada.
 
 #### Diagrama – Simulación Monte Carlo
 
-![Image](GESTION-RIESGO/TRABAJO_2/Evaluación de Riesgos de Ataque APT - Simulación Monte Carlo.png)
+[![Evaluacion-de-Riesgos-de-Ataque-APT-Simulacion-Monte-Carlo.png](https://i.postimg.cc/T2rRMtyf/Evaluacion-de-Riesgos-de-Ataque-APT-Simulacion-Monte-Carlo.png)](https://postimg.cc/pyLNKYY6)
 
 ---
 
