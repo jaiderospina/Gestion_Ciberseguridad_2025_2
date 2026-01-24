@@ -8,7 +8,7 @@
 
 Esta técnica se utiliza para comparar opciones de manera que las soluciones intermedias (trade-offs) se hagan explícitas. Es una alternativa al análisis de costo/beneficio que no requiere asignar un valor monetario a todos los elementos.
 
-*	Aplicación principal: Selección entre opciones.
+* ### Aplicación principal: Selección entre opciones.
 *	Alcance: Aplicable a nivel organizacional, de proyecto o de proceso.
 *	Nivel de decisión: Cualquiera (estratégico, táctico u operacional).
 * Atributos técnicos: Es una técnica principalmente cualitativa que requiere un esfuerzo bajo a medio y conocimientos especializados moderados.
@@ -84,43 +84,43 @@ Aplicación en técnicas: Análisis Costo/Beneficio (ACB) y ALARP / ALARA
 
 Justificación según ISO 31010
 
-	Análisis Costo/Beneficio (ACB)
+## Análisis Costo/Beneficio (ACB) ##
 
 Esta técnica utiliza el dinero como escala común para estimar las consecuencias positivas y negativas de las opciones de tratamiento.
 
-	Costo de Implementación: Inversión en segmentación de red (firewalls industriales), implementación de un SOC 24/7 y sistemas de detección de intrusiones (IDS) específicos para protocolos industriales (ej. DNP3 o Modbus).
-	Beneficio (Evitación de Pérdida): Valoración del ahorro al evitar multas regulatorias, reparaciones de infraestructura física (turbinas), indemnizaciones por falta de servicio y el impacto económico nacional por el cese de suministro.
-	Justificación ISO 31010: Es adecuada porque permite a la alta dirección tomar decisiones estratégicas basadas en el Retorno de Inversión en Seguridad (ROSI), comparando el gasto en ciberdefensa frente al impacto financiero catastrófico del ataque.
+*	Costo de Implementación: Inversión en segmentación de red (firewalls industriales), implementación de un SOC 24/7 y sistemas de detección de intrusiones (IDS) específicos para protocolos industriales (ej. DNP3 o Modbus).
+* Beneficio (Evitación de Pérdida): Valoración del ahorro al evitar multas regulatorias, reparaciones de infraestructura física (turbinas), indemnizaciones por falta de servicio y el impacto económico nacional por el cese de suministro.
+*	Justificación ISO 31010: Es adecuada porque permite a la alta dirección tomar decisiones estratégicas basadas en el Retorno de Inversión en Seguridad (ROSI), comparando el gasto en ciberdefensa frente al impacto financiero catastrófico del ataque.
 
-	ALARP / ALARA
+##	ALARP / ALARA ##
 
 Criterios utilizados para determinar si el riesgo de un evento es "tan bajo como sea razonablemente viable".
 
-	Aplicación: En una infraestructura crítica, el riesgo de un apagón total nunca es cero. Se aplica ALARP para demostrar que se han implementado todos los controles posibles hasta un punto donde el costo de una reducción adicional sea groseramente desproporcionado frente al beneficio de seguridad obtenido.
-	Justificación ISO 31010: Es la técnica idónea para la valoración del riesgo en sectores donde existen consecuencias para la vida humana y la estabilidad social, proporcionando una base legal y ética para la aceptación del riesgo residual.
+*	Aplicación: En una infraestructura crítica, el riesgo de un apagón total nunca es cero. Se aplica ALARP para demostrar que se han implementado todos los controles posibles hasta un punto donde el costo de una reducción adicional sea groseramente desproporcionado frente al beneficio de seguridad obtenido.
+*	Justificación ISO 31010: Es la técnica idónea para la valoración del riesgo en sectores donde existen consecuencias para la vida humana y la estabilidad social, proporcionando una base legal y ética para la aceptación del riesgo residual.
 
 Riesgos, incertidumbres y consecuencias
 ![ s ](Imagen3.png)
 
 
-Resultados y limitaciones del ejercicio
+### Resultados y limitaciones del ejercicio ###
 
-Resultados del Ejercicio
+## Resultados del Ejercicio ##
 
 o	Decisión Informada: El ACB justifica un presupuesto de 2M USD en ciberdefensa para proteger activos valorados en 500M USD con una probabilidad de ataque anual estimada.
 o	Tolerancia: El marco ALARP establece que, aunque persiste una incertidumbre residual por la sofisticación de la APT, los controles de "defensa en profundidad" cumplen con la debida diligencia legal.
 
-Limitaciones
+## Limitaciones ##
 
-o	Dificultad de Valoración: Asignar un valor monetario exacto a la "seguridad nacional" o la "pérdida de vidas" en un ACB es complejo y a menudo controvertido.
-o	Naturaleza Dinámica de la APT: Las APT evolucionan más rápido de lo que los modelos de ACB pueden actualizarse; un control que hoy es costo-beneficioso, mañana puede ser irrelevante ante una nueva técnica de ataque.
-o	Sesgos Humanos: La evaluación de la posibilidad de un ataque de este tipo a menudo sufre de un exceso de confianza en los controles actuales o sesgos de disponibilidad.
+*	Dificultad de Valoración: Asignar un valor monetario exacto a la "seguridad nacional" o la "pérdida de vidas" en un ACB es complejo y a menudo controvertido.
+*	Naturaleza Dinámica de la APT: Las APT evolucionan más rápido de lo que los modelos de ACB pueden actualizarse; un control que hoy es costo-beneficioso, mañana puede ser irrelevante ante una nueva técnica de ataque.
+*	Sesgos Humanos: La evaluación de la posibilidad de un ataque de este tipo a menudo sufre de un exceso de confianza en los controles actuales o sesgos de disponibilidad.
 
-Análisis de Consecuencias y Probabilidades
+### Análisis de Consecuencias y Probabilidades ###
 
 Esta matriz visualiza la importancia relativa de los eventos del ataque para priorizar los controles.
 
-![ s ](Mapa Calor4.png)
+![ s ](Mapa_Calor4.png)
 
 
 
@@ -128,34 +128,34 @@ Esta matriz visualiza la importancia relativa de los eventos del ataque para pri
 
 Análisis Técnico de los Nodos Críticos
 
-Nodo 1: Acceso Inicial (Phishing/Ingeniería Social)
+* Nodo 1: Acceso Inicial (Phishing/Ingeniería Social)
 Probabilidad: Probable (4). Los vectores humanos son los puntos de entrada más frecuentes.
 Consecuencia: Menor (2). El acceso a la red IT corporativa no implica control directo sobre la generación de energía.
 
-Nodo 2: Pivote IT a OT (Salto de Segmentación)
+* Nodo 2: Pivote IT a OT (Salto de Segmentación)
 Probabilidad: Posible (3). Depende de la robustez de las reglas de firewall y el uso de zonas desmilitarizadas (DMZ) industriales.
 Consecuencia: Moderada (3). Permite al atacante observar el tráfico de control y realizar reconocimiento de activos SCADA.
 
-Nodo 3: Compromiso de Estación de Ingeniería
+* Nodo 3: Compromiso de Estación de Ingeniería
 Probabilidad: Improbable (2). Requiere técnicas avanzadas de escalada de privilegios y bypass de controles de autenticación fuerte (MFA).
 Consecuencia: Mayor (4). Es el "punto de no retorno"; permite reprogramar la lógica de control de los PLC.
 
-Nodo 4: Manipulación de Lógica PLC y Daño Físico
+* Nodo 4: Manipulación de Lógica PLC y Daño Físico
 Probabilidad: Raro (1). Exige un conocimiento profundo del proceso físico de la hidroeléctrica y la evasión de enclavamientos mecánicos.
 Consecuencia: Catastrófica (5). Destrucción de activos físicos (turbinas), pérdida total del servicio y riesgo para la vida humana.
 
-Interpretación para la Toma de Decisiones
+### Interpretación para la Toma de Decisiones ###
 
-o	Zona de Alerta (Rojo - Nodo 4): Aunque la probabilidad es "Rara", su ubicación en el extremo de consecuencia catastrófica exige la aplicación del criterio ALARP. No se puede aceptar este riesgo sin controles de seguridad intrínseca (no solo digitales, sino protecciones físicas/mecánicas independientes).
+*	Zona de Alerta (Rojo - Nodo 4): Aunque la probabilidad es "Rara", su ubicación en el extremo de consecuencia catastrófica exige la aplicación del criterio ALARP. No se puede aceptar este riesgo sin controles de seguridad intrínseca (no solo digitales, sino protecciones físicas/mecánicas independientes).
 
-o	Zona Operativa (Naranja/Amarillo - Nodos 1 y 2): Son eventos de "alta frecuencia - bajo impacto". Deben gestionarse mediante monitoreo continuo (SOC) y concientización para reducir la probabilidad de éxito de la APT en las fases tempranas.
+*	Zona Operativa (Naranja/Amarillo - Nodos 1 y 2): Son eventos de "alta frecuencia - bajo impacto". Deben gestionarse mediante monitoreo continuo (SOC) y concientización para reducir la probabilidad de éxito de la APT en las fases tempranas.
 
-o	Uso de la Matriz: Esta técnica permite demostrar a la dirección que los recursos deben enfocarse en el Nodo 3, ya que es el facilitador del impacto catastrófico.
+*	Uso de la Matriz: Esta técnica permite demostrar a la dirección que los recursos deben enfocarse en el Nodo 3, ya que es el facilitador del impacto catastrófico.
 
-Limitaciones del Ejercicio según ISO 31010
+### Limitaciones del Ejercicio según ISO 31010 ###
 
-o	Pérdida de Información: Al combinar consecuencia y posibilidad en un valor único, se puede perder la distinción entre riesgos de alta consecuencia y baja probabilidad frente a los frecuentes de bajo impacto.
-o	Subjetividad: La asignación de niveles depende del juicio de expertos, el cual puede estar sesgado por eventos recientes.
+*	Pérdida de Información: Al combinar consecuencia y posibilidad en un valor único, se puede perder la distinción entre riesgos de alta consecuencia y baja probabilidad frente a los frecuentes de bajo impacto.
+*	Subjetividad: La asignación de niveles depende del juicio de expertos, el cual puede estar sesgado por eventos recientes.
 
 Elaborador: Johanna Lambuley – David Mora – Jesus David Díaz – Fabián Gómez
 Asignatura: Gestión de Riesgos Cibernéticos - MAECI - 2026
