@@ -1,4 +1,3 @@
-# FRAMEWORK DE ZACHMAN
 ## FRAMEWORK DE ZACHMAN
 **Framework de Zachman**, también conocido como **Zachman Framework for Enterprise Architecture**, que es uno de los marcos de referencia más influyentes en **arquitectura empresarial**.
 
