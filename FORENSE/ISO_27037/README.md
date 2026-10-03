@@ -1,11 +1,3 @@
-En la imagen adjunta se evidencia que el problema de visualización en el archivo `README.md` se origina por dos factores de sintaxis Markdown:
-
-1. Las líneas que fallan inician con una doble barra vertical (`||`) en vez de una sola (`|`).
-2. Entre la primera fila y las siguientes se introdujo un salto de línea en blanco o un carácter invisible no imprimible (como `\u00a0`), lo cual rompe el bloque de la tabla en los motores de renderizado estándar (como GitHub, GitLab o editores Markdown).
-
-A continuación se presenta la versión corregida y estructurada del documento, con los entregables claramente especificados (incluyendo el archivo PowerPoint de sustentación y su estructura requerida) y todas las tablas formateadas en Markdown estricto y limpio.
-
----
 
 # Taller Práctico Avanzado: Intervención Forense en Escenario de Crisis y Cadena de Custodia bajo ISO/IEC 27037
 
