@@ -1,75 +1,84 @@
-
 # Taller Práctico Avanzado: Intervención Forense en Escenario de Crisis y Cadena de Custodia bajo ISO/IEC 27037
 
-### 1. Ficha Técnica y Entregables Formales
+### 1. Ficha Técnica de la Actividad
 
 * **Asignatura:** Informática Forense.
 * **Programa:** Maestría en Ciberseguridad y Ciberdefensa.
-* **Metodología:** Aprendizaje Basado en Problemas (ABP), simulación en infraestructura crítica y juicio oral de admisibilidad.
+* **Metodología:** Aprendizaje Basado en Problemas (ABP), juego de roles y simulación de incidentes en infraestructura crítica / defensa.
 * **Modalidad de trabajo:** Tres (3) equipos multidisciplinarios (3 a 5 estudiantes por equipo).
 * **Duración total:** 150 minutos.
 
-#### Entregables Formales Obligatorios por Equipo:
+---
 
-Cada equipo debe cargar en la plataforma académica y disponer para la sesión los siguientes tres (3) productos:
+### 2. Entregables Formales Obligatorios por Equipo
 
-1. **Documento Técnico Pericial (PDF / Informe Escrito):**
-* Respuestas analíticas a las preguntas clave del caso asignado.
+Cada equipo debe elaborar y disponer para la sesión académica los siguientes productos:
+
+1. **Dossier Técnico Pericial (Documento escrito / PDF):**
+* Respuestas analíticas y fundamentadas a las preguntas clave del caso asignado.
 * **Formato 1 diligenciado:** Bitácora de Triaje y Justificación Técnica de la Intervención.
 * **Formato 2 diligenciado:** Registro de Cadena de Custodia y Trazabilidad (Anexo B, ISO 27037).
 
 
-2. **Presentación de Sustentación (PowerPoint - PPTX):**
-* Diapositivas diseñadas para la defensa pericial de **10 minutos**.
-* Estructura requerida en la presentación:
-* *Diapositiva 1:* Carátula institucional, integrantes, roles asignados y referencia del caso.
-* *Diapositiva 2:* Resumen ejecutivo de la escena intervenida y delimitación del mandato legal.
-* *Diapositivas 3-4:* Diagrama de flujo de toma de decisiones (justificación bajo Figuras 1 a 5 de ISO 27037).
+2. **Presentación de Sustentación Pericial (PowerPoint - PPTX):**
+* Diapositivas preparadas para la defensa pericial de **10 minutos** en clase.
+* **Estructura obligatoria de la presentación:**
+* *Diapositiva 1:* Carátula formal con integrantes, roles normativos asignados y referencia operacional del caso.
+* *Diapositiva 2:* Resumen ejecutivo de la escena intervenida y delimitación del alcance del mandato judicial.
+* *Diapositivas 3-4:* Diagrama de flujo de toma de decisiones técnicas (fundamentado en las Figuras 1 a 5 de la norma).
 * *Diapositiva 5:* Procedimiento de preservación, contención de riesgos y orden de volatilidad aplicado.
-* *Diapositiva 6:* Cuadro consolidado de evidencias, empaque técnico y funciones de integridad (hash).
-* *Diapositiva 7:* Matriz de defensa contra riesgos de *spoliation* (alteración) o sesgo inherente (*bias*).
+* *Diapositiva 6:* Consolidado de evidencias materiales aseguradas, tipo de empaque técnico y funciones resumen (*hash*).
+* *Diapositiva 7:* Matriz de defensa técnica frente a posibles acusaciones de alteración (*spoliation*) o sesgo (*inherent bias*).
 
 
 
 
-3. **Defensa Pericial Oral y Evaluación Cruzada (En Clase):**
-* Exposición pericial del grupo empleando el material de PowerPoint (10 min).
-* Sustentación oral ante contra-interrogatorio de los equipos pares y el tribunal docente (10 min), evaluada mediante el **Formato 3**.
+3. **Defensa Oral y Juicio de Admisibilidad (En Aula):**
+* Exposición oral pericial del equipo sustentante (10 minutos).
+* Fase de contra-interrogatorio frente al tribunal docente y los grupos pares que actúan como contraparte pericial (10 minutos).
 
 
 
 ---
 
-### 2. Marco Normativo Obligatorio
+### 3. Marco Normativo y Fundamentos Teóricos Obligatorios
 
-Las decisiones y justificaciones del equipo deben sustentarse en:
+Los equipos deberán fundamentar todas sus decisiones técnicas, procedimentales y jurídicas en:
 
 1. **Los 4 pilares de la evidencia digital:** Auditabilidad (5.3.2), Repetibilidad (5.3.3), Reproducibilidad (5.3.4) y Justificabilidad (5.3.5).
 2. **Las 4 fases del ciclo de vida:** Identificación (5.4.2), Recolección (5.4.3), Adquisición (5.4.4) y Preservación (5.4.5).
-3. **Roles normativos:** *Digital Evidence First Responder* (DEFR) y *Digital Evidence Specialist* (DES).
-4. **Orden de volatilidad:** Manejo de RAM, conexiones y volúmenes cifrados previo a la desconexión (RFC 3227 y numeral 6.8).
-5. **Mitigación del sesgo (*Inherent Bias*):** Neutralidad en la recolección frente a manifestaciones de terceros (numeral 6.7.5).
+3. **Roles operativos:** Primer Respondedor (*Digital Evidence First Responder* - DEFR) y Especialista en Evidencia Digital (*Digital Evidence Specialist* - DES).
+4. **Orden de volatilidad y datos en vivo:** Manejo de RAM, procesos, conexiones y contenedores cifrados previo a la desconexión o apagado (RFC 3227 y numeral 6.8 de la norma).
+5. **Mitigación del sesgo inherente (*Inherent Bias*):** Neutralidad en la toma de decisiones basada en el *briefing* (numeral 6.7.5).
 
 ---
 
-### 3. Asignación de Roles por Equipo
+### 4. Contextualización del Escenario General
 
-* **DEFR Líder de Escena:** Perímetro, riesgos físicos/lógicos y apertura de actas.
-* **DES (Especialista en Evidencia Digital):** Definición técnica de adquisición en vivo o colección física, orden de volatilidad y validación de software forense.
-* **Oficial de Cadena de Custodia:** Diligenciamiento de actas, empaque técnico y cálculo de hashes.
-* **Auditor de Cumplimiento (Para equipos de 4 o 5; asumido por el DEFR en equipos de 3):** Control de trazabilidad y prevención de objeciones por *spoliation*.
+> Se ha detectado una fuga masiva de información clasificada y señales de persistencia avanzada (APT) en la sede de enlace de una agencia de mando y control del sector defensa. La alerta temprana sugiere que se han utilizado credenciales comprometidas y dispositivos no autorizados para exfiltrar fragmentos de planes operacionales hacia redes externas. El equipo forense recibe un mandato judicial/militar y un *briefing* inicial con tiempo limitado para intervenir y asegurar los potenciales elementos de evidencia física y lógica.
 
 ---
 
-### 4. Cronograma de la Sesión (150 Minutos)
+### 5. Estructura y Roles Operativos por Equipo
 
-| Bloque | Tiempo | Actividad Operativa |
+Cada equipo distribuirá internamente las siguientes responsabilidades periciales:
+
+1. **DEFR Líder de Escena:** Coordina la seguridad física y lógica del perímetro, evalúa riesgos en escena (6.2), valida el mandato legal y firma la apertura de actas.
+2. **Especialista en Evidencia Digital (DES):** Diseña y ejecuta la estrategia técnica de adquisición en vivo vs. recolección física, supervisa el orden de volatilidad y valida las herramientas estáticas forenses.
+3. **Oficial de Registro y Cadena de Custodia:** Diligencia formalmente los inventarios y registros de cadena de custodia (Anexo B), calcula las funciones resumen (MD5/SHA-256) y administra el empaque técnico (antiestático/Faraday).
+4. **Auditor de Calidad y Cumplimiento Normativo (Obligatorio en grupos de 4 o 5; asumido por el DEFR en grupos de 3):** Contrasta en tiempo real que cada acción cumpla los principios de auditabilidad, repetibilidad, reproducibilidad y justificabilidad para prevenir acusaciones de *spoliation*.
+
+---
+
+### 6. Cronograma de Ejecución en Clase (150 Minutos)
+
+| Fase | Duración | Actividad y Objetivos Operativos |
 | --- | --- | --- |
-| **Parte I: Gabinete y Triaje Documental** | **90 min** | • **00–20 min:** Análisis de caso, verificación del mandato y selección de herramientas.<br>
+| **Parte I: Gabinete y Triaje Documental** | **90 min** | • **00–20 min:** Análisis de caso, verificación del mandato legal y selección de herramientas estáticas.<br>
 
-<br>• **20–60 min:** Resolución de preguntas técnicas y diagramación del árbol de decisiones.<br>
+<br>• **20–60 min:** Resolución de preguntas técnicas, aplicación de diagramas de decisión y triaje de volatilidad.<br>
 
-<br>• **60–90 min:** Diligenciamiento formal de Formatos 1 y 2, y compilación del PowerPoint. |
+<br>• **60–90 min:** Diligenciamiento formal de Formatos 1 y 2, y compilación final de la presentación en PowerPoint. |
 | **Parte II: Sustentación y Juicio de Admisibilidad** | **60 min** | • **90–110 min:** Sustentación y contra-interrogatorio Grupo 1.<br>
 
 <br>• **110–130 min:** Sustentación y contra-interrogatorio Grupo 2.<br>
@@ -78,7 +87,7 @@ Las decisiones y justificaciones del equipo deben sustentarse en:
 
 ---
 
-### 5. Casos Detallados y Fichas de Inventario Simulado
+### 7. Casos Detallados y Fichas de Inventario Simulado
 
 ---
 
@@ -87,15 +96,17 @@ Las decisiones y justificaciones del equipo deben sustentarse en:
 *Alineación normativa: Numerales 5.3, 5.4, 6.2, 6.6, 6.8, 7.1.1, 7.1.2.1, 7.1.3.1; Figuras 1, 2 y 4.*
 
 * **Referencia Operacional:** Caso OPE-DEF-2026-088.
-* **Contexto:** Se comisiona al equipo DEFR/DES para intervenir la oficina del Director de Proyectos Especiales del Comando Conjunto de Ciberdefensa. Las alertas del SIEM indican tráfico anómalo masivo mediante túneles DNS hacia un servidor externo no identificado.
-* **Escena al arribar (09:15 horas):**
-* Estación encendida (*powered-on*).
-* Pantalla desbloqueada mediante un emulador de ratón (*mouse jiggler*) conectado al puerto USB frontal.
-* Se aprecian consolas PowerShell abiertas, explorador con unidad montada `V:\ (Volumen Seguro)` y mensajería cifrada activa.
-* Interfaz de red cableada RJ-45 transmitiendo a alta velocidad.
-* Post-it manuscrito sobre el teclado con posibles credenciales.
+* **Contexto:** Se comisiona al equipo DEFR/DES para intervenir la oficina del Director de Proyectos Especiales del Comando Conjunto de Ciberdefensa. Las alertas del SIEM indican tráfico anómalo masivo mediante túneles DNS hacia un servidor en el extranjero.
+* **Situación de la Escena al arribar (09:15 horas):**
+* La estación de trabajo principal se encuentra **encendida** (*powered-on*).
+* La pantalla está activa y desbloqueada gracias a un dispositivo USB desconocido conectado en el panel frontal que emula actividad continua de ratón (*mouse jiggler*).
+* En pantalla se observan dos consolas de PowerShell abiertas, una ventana de explorador de archivos con una unidad montada `V:\ (Volumen Seguro)` y una sesión activa de mensajería instantánea cifrada.
+* El cable de red RJ-45 está conectado a la roseta de pared y el LED de actividad parpadea intensamente.
+* El funcionario investigado no se encuentra presente, pero sobre el teclado hay una nota adhesiva manuscrita con palabras clave y credenciales tentativas.
 
 
+
+**Ficha de Inventario y Evidencia Simulada (Grupo 1):**
 
 | ID Ítem | Descripción del Elemento | Estado Inicial | Particularidades Técnicas / Identificadores |
 | --- | --- | --- | --- |
@@ -105,12 +116,12 @@ Las decisiones y justificaciones del equipo deben sustentarse en:
 | **G1-E04** | Nota adhesiva (Post-it amarillo) | Sobre el teclado | Contiene texto manuscrito: *"AES-K: Gr@n4d0_2026! // VPN: C2-Ext"*. |
 | **G1-E05** | Cable de alimentación AC y UPS | Conectado a UPS APC 1500VA | El equipo cuenta con respaldo eléctrico activo de batería. |
 
-**Preguntas Clave a Responder en el Informe y PowerPoint:**
+**Preguntas Clave y Retos Metodológicos:**
 
-1. ¿Adquisición en vivo (*live acquisition*) o recolección física directa (*collection*)? Justificar mediante Figuras 1 y 4 y numeral 6.8.
-2. ¿Cómo aislar la interfaz de red para evitar un comando remoto de autodestrucción sin perder conexiones volátiles activas ni tablas ARP (6.2.3 y 7.2.2.2)?
-3. Procedimiento para captura de RAM: herramientas confiables, impacto en memoria paginada y cálculo de hash (7.1.3.1.2).
-4. Procedimiento técnico y normativo para el apagado seguro de un sistema con volúmenes cifrados montados (Figura 2 y 7.1.2.1.2).
+1. Siguiendo el árbol de decisión de la Figura 1 y 4: ¿Se debe realizar adquisición en vivo (*live acquisition*) o recolección física directa (*collection*)? Justificar con base en el concepto de *volatile data* (sección 3.26 y 6.8).
+2. ¿Cómo se aísla la estación de la red para mitigar el riesgo de una instrucción remota de borrado (*logic-bomb* o autodestrucción) sin alterar las tablas ARP y conexiones TCP/IP activas (numerales 6.2.3 y 7.2.2.2)?
+3. En caso de extraer la memoria RAM: ¿Qué consideraciones técnicas de la norma (numeral 7.1.3.1.2) deben aplicarse respecto a herramientas estáticas de confianza, desplazamiento de memoria (*paging*) y cálculo de hash?
+4. ¿Cuál es el procedimiento normativo para apagar o transportar el equipo garantizando que los datos no se corrompan si el disco estuviera parcialmente cifrado (Figura 2 y nota 1 del 7.1.2.1.2)?
 
 ---
 
@@ -119,76 +130,86 @@ Las decisiones y justificaciones del equipo deben sustentarse en:
 *Alineación normativa: Numerales 6.7.5, 6.9, 7.1.3.5, 7.2.1, 7.2.2.1, 7.2.2.3.*
 
 * **Referencia Operacional:** Caso OPE-DEF-2026-089.
-* **Contexto:** Intervención en un Puesto de Mando Unificado a un operador de comunicaciones sospechoso de filtrar coordenadas tácticas.
-* **Escena al arribar:**
-* Smartphone Samsung bloqueado con PIN/patrón pero encendido sobre la mesa.
-* Memoria USB en posesión del sujeto con la leyenda *"Música Personal - MP3"*. El operador insiste reiteradamente que solo contiene archivos de audio propios para intentar desviar la recolección.
-* MicroSD suelta de 128 GB y dongle Wi-Fi de alta potencia en un cajón.
-* Cobertura de red celular y Wi-Fi en pleno nivel de señal.
+* **Contexto:** Durante una inspección contrainteligencia imprevista en un Puesto de Mando Unificado, se interviene a un oficial de comunicaciones sospechoso de filtrar coordenadas tácticas a través de aplicaciones celulares y dispositivos externos.
+* **Situación de la Escena al arribar:**
+* El oficial está sentado con un teléfono inteligente Samsung Galaxy encendido sobre la mesa, con la pantalla bloqueada mediante patrón biométrico/PIN.
+* En el bolsillo de su chaleco se encuentra una memoria USB rotulada *"Música Personal - MP3"*. El oficial insiste repetidamente: *"No pierdan el tiempo con esa memoria, solo tiene música de mi uso personal, revisen el computador del compañero que él sí maneja las órdenes de marcha"* (Tentativa explícita de inducir sesgo investigativo).
+* En una gaveta abierta se observa una tarjeta MicroSD suelta de 128 GB, adaptadores de SIM y un dongle USB Wi-Fi de alta potencia configurado en modo monitor.
+* Las redes celulares 4G/5G y la red Wi-Fi táctica tienen cobertura total y alta potencia en el recinto.
 
 
+
+**Ficha de Inventario y Evidencia Simulada (Grupo 2):**
 
 | ID Ítem | Descripción del Elemento | Estado Inicial | Particularidades Técnicas / Identificadores |
 | --- | --- | --- | --- |
-| **G2-E01** | Smartphone Samsung Galaxy S23 | Encendido / Bloqueado | IMEI: 358912345678901; Conectado a Wi-Fi y LTE; batería al 38%. |
-| **G2-E02** | Unidad Flash USB Kingston DataTraveler 64GB | Desconectada | Rotulada a mano *"Música Personal"*; interfaz USB 3.2. |
-| **G2-E03** | Tarjeta MicroSD SanDisk Extreme 128GB | Suelta (sin adaptador) | S/N: SD-88301-C10; sin marcas externas adicionales. |
-| **G2-E04** | Tarjeta nano-SIM (en teléfono G2-E01) | Insertada | Operador Claro Colombia; ICCID legible parcialmente. |
-| **G2-E05** | Adaptador USB Wi-Fi Alfa Network AWUS036ACM | Desconectado | Antenas desmontables; compatible con modo monitor e inyección. |
+| **G2-E01** | Smartphone Samsung Galaxy S23 | Encendido / Bloqueado | IMEI: 358912345678901; Conectado a Wi-Fi y red móvil LTE; batería al 38%. |
+| **G2-E02** | Unidad Flash USB Kingston DataTraveler 64GB | Desconectada | Etiquetada a mano *"Música Personal"*; conector tipo USB 3.2. |
+| **G2-E03** | Tarjeta MicroSD SanDisk Extreme 128GB | Suelta (sin adaptador) | S/N: SD-88301-C10; sin rotulación visible. |
+| **G2-E04** | Tarjeta nano-SIM (en el teléfono G2-E01) | Insertada | Operador Claro Colombia; ICCID visible parcialmente en bandeja. |
+| **G2-E05** | Adaptador USB Wi-Fi Alfa Network AWUS036ACM | Desconectado | Antenas desmontables de alta ganancia; chipset compatible con inyección de paquetes de red. |
 
-**Preguntas Clave a Responder en el Informe y PowerPoint:**
+**Preguntas Clave y Retos Metodológicos:**
 
-1. ¿Cómo fundamenta el perito la incautación de la USB frente al intento de inducir sesgo (*inherent bias*, numeral 6.7.5)?
-2. ¿Qué riesgos inmediatos enfrenta el terminal móvil encendido y qué medidas de aislamiento RF y soporte de carga deben aplicarse (6.9.2 y 7.2.2.3)?
-3. ¿Por qué el confinamiento en bolsa de Faraday acelera el drenaje de batería y cómo se contrarresta técnicamente en campo?
-4. Protocolo de empaque antiestático, precintado y adquisición forense mediante *write-blocker* para la MicroSD y la USB.
+1. Respecto a la manifestación del sospechoso sobre la memoria USB: ¿Cómo se fundamenta metodológicamente la actuación del DEFR frente al **sesgo inherente (*inherent bias*)** según el numeral 6.7.5 de la ISO 27037?
+2. ¿Cuáles son los riesgos inmediatos asociados al teléfono encendido (bloqueo por temporizador, comandos de borrado remoto vía servicios cloud, recepción de tráfico push) y qué medidas de aislamiento físico/RF y preservación energética exige la norma (numerales 6.9.2 y 7.2.2.3)?
+3. Si el teléfono se coloca dentro de una bolsa/jaula de Faraday: ¿Qué ocurre con el consumo de batería debido al incremento de potencia de emisión y cómo debe proceder el DEFR para evitar la pérdida del estado encendido (numeral 6.9.2 nota técnica)?
+4. Para la tarjeta MicroSD y la memoria USB: Describir la secuencia de preservación física (materiales antiestáticos, precintos) y adquisición forense (bloqueador de escritura y cálculo de hash).
 
 ---
 
-#### GRUPO 3: Almacenamiento Centralizado (NAS/RAID) y Sistema CCTV
+#### GRUPO 3: Infraestructura de Almacenamiento Centralizado (NAS/RAID) y Sistema CCTV
 
 *Alineación normativa: Numerales 6.5, 6.6, 7.1.3.3, 7.1.3.4, 7.3.*
 
 * **Referencia Operacional:** Caso OPE-DEF-2026-090.
-* **Contexto:** Fuga de registros de auditoría y sospecha de conexión física de un dispositivo malicioso en el centro de cableado durante el fin de semana.
-* **Escena al arribar:**
-* Servidor NAS Synology en RAID 5 en producción ininterrumpida para dependencias médicas y de transporte.
-* Grabador de video digital NVR Hikvision grabando en bucle con 16 cámaras IP activas.
-* La orden judicial se delimita expresamente al directorio `/vol1/operaciones_especiales/` y grabaciones del pasillo entre las 02:00 y las 06:00 del 02/10/2026.
+* **Contexto:** Se ha detectado la manipulación y borrado de bitácoras de auditoría en un servidor central que soporta operaciones logísticas conjuntas. Simultáneamente, se sospecha que una persona no autorizada ingresó físicamente al centro de cableado para conectar un dispositivo de espionaje (*drop-box*) durante el fin de semana.
+* **Situación de la Escena al arribar:**
+* En el rack de comunicaciones se encuentra un servidor de almacenamiento en red **NAS Synology RackStation** con 8 bahías en arreglo **RAID 5**. El sistema presta servicios simultáneos e ininterrumpidos al área médica y de transporte de la institución militar (sistema de misión crítica).
+* En el mismo bastidor opera un grabador de video digital en red (**NVR/CCTV Hikvision**) conectado a 16 cámaras IP, con 4 discos duros internos grabando en bucle.
+* La orden judicial autoriza únicamente la búsqueda y extracción de información relacionada con el directorio `/vol1/operaciones_especiales/` y las grabaciones de video del pasillo de acceso entre las 02:00 y las 06:00 horas del 2 de octubre de 2026.
 
 
+
+**Ficha de Inventario y Evidencia Simulada (Grupo 3):**
 
 | ID Ítem | Descripción del Elemento | Estado Inicial | Particularidades Técnicas / Identificadores |
 | --- | --- | --- | --- |
-| **G3-E01** | Servidor NAS Synology RS2423+ | En producción / Crítico | S/N: 2280SYN-9011; 8 discos HDD SATA 4TB en RAID 5 (28 TB útiles). |
-| **G3-E02** | Unidad NVR CCTV Hikvision DS-7716NI | En grabación continua | S/N: HK-88402-V; Reloj interno con desfase respecto a la hora legal. |
-| **G3-E03** | Switch Distribución Cisco Catalyst 3850 | Operacional | Enlaces de fibra/cobre interconectando el NAS, NVR y red de datos. |
-| **G3-E04** | Monitor de Gestión y Consola KVM | En reposo | Conectado a consolas de administración locales. |
+| **G3-E01** | Servidor NAS Synology RS2423+ | En producción / Crítico | S/N: 2280SYN-9011; 8 discos HDD SATA de 4TB en RAID 5 (28 TB útiles). Aloja datos de múltiples áreas. |
+| **G3-E02** | Unidad NVR CCTV Hikvision DS-7716NI | En grabación continua | S/N: HK-88402-V; Reloj interno desincronizado con respecto al NTP nacional. 16 canales activos. |
+| **G3-E03** | Switch de Distribución Cisco Catalyst 3850 | Operacional | Conexiones de fibra óptica y cobre interconectando el NAS, NVR y red troncal. |
+| **G3-E04** | Monitor de Gestión y Consola KVM | En reposo | Conectado directamente a las interfaces de video del NAS y del NVR. |
 
-**Preguntas Clave a Responder en el Informe y PowerPoint:**
+**Preguntas Clave y Retos Metodológicos:**
 
-1. ¿Por qué resulta improcedente apagar o extraer físicamente los discos del arreglo RAID de misión crítica (6.5 y 7.1.3.3)?
-2. ¿Cómo se planifica y ejecuta una adquisición lógica/parcial circunscrita estrictamente al mandato judicial (5.4.4 y 7.1.3.4)?
-3. Procedimiento para CCTV: ¿Por qué documentar el *time offset* del reloj del NVR y qué riesgo probatorio genera la transcodificación no nativa a formatos genéricos (7.3)?
-4. ¿Cómo se valida y certifica que el NVR reanuda su servicio de forma íntegra tras la extracción pericial?
+1. Frente al servidor NAS: Considerando que es un sistema de misión crítica (*mission-critical system*) que comparte almacenamiento con unidades operativas y médicas inocentes (numerales 6.5 y 7.1.3.3): ¿Por qué es técnicamente inadmisible apagar el equipo o remover físicamente los discos duros?
+2. ¿Cómo se planifica y documenta una **adquisición parcial / lógica (*partial/logical acquisition*)** conforme a los numerales 5.4.4 y 7.1.3.4, garantizando que no se extraiga información por fuera del mandato legal?
+3. En el sistema CCTV (numeral 7.3):
+* ¿Por qué es crítico documentar el desfase temporal (*time offset*) del reloj del grabador frente a una fuente horaria confiable y trazable antes de iniciar la exportación?
+* ¿Qué riesgos probatorios existen si se decide exportar el video recodificándolo a formato AVI o MPEG genérico en lugar de exportar el flujo nativo propietario junto con su reproductor validado (*player software*)?
+
+
+4. ¿Qué acciones deben realizarse para verificar que el NVR continúe su funcionamiento normal tras la extracción de las secuencias requeridas (numeral 7.3)?
 
 ---
 
-### 6. Formatos Estandarizados para los Entregables
+### 8. Formatos Estandarizados Obligatorios
 
 ---
 
 #### FORMATO 1: Bitácora de Triaje y Justificación Técnica de la Intervención
 
-*(Cumplimiento de los numerales 5.3.2 - Auditabilidad y 5.3.5 - Justificabilidad).*
+*(Entregable obligatorio del grupo sustentante | Alineado con 5.3.2 - Auditabilidad y 5.3.5 - Justificabilidad).*
 
 * **Número de Caso:** __________________________________ **Fecha y Hora de Arribo:** ____________________
 * **Equipo Pericial Responsable:** ____________________________________________________________________
 * **Mandato Legal y Autoridad Emisora:** _______________________________________________________________
-* **Evaluación Inicial de Riesgos en Escena (Numeral 6.2):**
+* **Evaluación Inicial de Riesgos en Escena (Riesgos físicos y lógicos - Numeral 6.2):**
 ---
 
 
+
+**Matriz de Decisiones Técnicas:**
 
 | ID Dispositivo | Estado Inicial (ON / OFF) | ¿Contiene Datos Volátiles Críticos? (Sí / No) | Determinación Operativa (Colección Física vs. Adquisición en Vivo/Lógica) | Fundamentación Normativa (Cláusula ISO 27037) | Alteraciones Técnicas Inevitables Introducidas |
 | --- | --- | --- | --- | --- | --- |
@@ -200,11 +221,13 @@ Las decisiones y justificaciones del equipo deben sustentarse en:
 
 #### FORMATO 2: Registro de Cadena de Custodia y Trazabilidad de Evidencia
 
-*(Alineado con el numeral 6.1 y el Anexo B de la norma ISO/IEC 27037:2016).*
+*(Entregable obligatorio del grupo sustentante | Alineado con numeral 6.1 y Anexo B de ISO/IEC 27037:2016).*
 
 * **Referencia del Caso / Expediente:** _________________________________________________________________
 * **Entidad / Unidad Investigadora:** ___________________________________________________________________
 * **Ubicación Exacta de la Escena:** __________________________________________________________________
+
+**Registro de Elementos Materiales Probatorios:**
 
 | Ítem N° | Descripción Detallada (Marca, Modelo, S/N) | Tipo de Empaque (Antiestático / Faraday / Rígido) | Número de Precinto / Sello de Seguridad | Algoritmo Hash (MD5 / SHA-256) | Valor Hash Verificado | Nombre, Rol y Firma del Receptor |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -216,6 +239,6 @@ Las decisiones y justificaciones del equipo deben sustentarse en:
 
 * **Entrega:** ____________________________ **Cargo:** __________________ **Fecha/Hora:** ______________ **Firma:** ________________
 * **Recibe:** _____________________________ **Cargo:** __________________ **Fecha/Hora:** ______________ **Firma:** ________________
-* **Propósito del Traslado:** [  ] Almacenamiento en bodega de evidencias | [  ] Traslado a laboratorio forense
+* **Propósito del Traslado:** [  ] Almacenamiento seguro en bodega de evidencias | [  ] Traslado a laboratorio pericial
 
 ---
