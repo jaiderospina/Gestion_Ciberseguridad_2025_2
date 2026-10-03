@@ -6,7 +6,6 @@
 * **Programa:** Maestría en Ciberseguridad y Ciberdefensa.
 * **Metodología:** Aprendizaje Basado en Problemas (ABP), juego de roles y simulación de incidentes en infraestructura crítica / defensa.
 * **Modalidad de trabajo:** Tres (3) equipos multidisciplinarios (3 a 5 estudiantes por equipo).
-* **Duración total:** 150 minutos.
 
 ---
 
@@ -37,7 +36,7 @@ Cada equipo debe elaborar y disponer para la sesión académica los siguientes p
 * Exposición oral pericial del equipo sustentante (10 minutos).
 * Fase de contra-interrogatorio frente al tribunal docente y los grupos pares que actúan como contraparte pericial (10 minutos).
 
-
+# NOTA:  Dentro de este mismo README, cada grupo debe subir sus evidencias en una carpeta y un README.md  ( nomenclatura carpeta -->  Grupo 1, Grupo 2)
 
 ---
 
