@@ -7,6 +7,8 @@
 * **Metodología:** Aprendizaje Basado en Problemas (ABP), juego de roles y simulación de incidentes en infraestructura crítica / defensa.
 * **Modalidad de trabajo:** Tres (3) equipos multidisciplinarios (3 a 5 estudiantes por equipo).
 
+
+![](27037.png)
 ---
 
 ### 2. Entregables Formales Obligatorios por Equipo
