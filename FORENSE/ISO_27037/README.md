@@ -1,5 +1,7 @@
-# Taller Práctico Avanzado: Intervención Forense en Escenario de Crisis y Cadena de Custodia bajo ISO/IEC 27037
 
+
+# Taller Práctico Avanzado: Intervención Forense en Escenario de Crisis y Cadena de Custodia bajo ISO/IEC 27037
+![](27037.png)
 ### 1. Ficha Técnica de la Actividad
 
 * **Asignatura:** Informática Forense.
