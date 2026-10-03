@@ -242,3 +242,4 @@ Cada equipo distribuirá internamente las siguientes responsabilidades periciale
 * **Propósito del Traslado:** [  ] Almacenamiento seguro en bodega de evidencias | [  ] Traslado a laboratorio pericial
 
 ---
+
