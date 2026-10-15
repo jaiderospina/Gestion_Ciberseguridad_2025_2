@@ -1,1 +1,80 @@
+ 
+
+Vectores Móviles, Medios Extraíbles y Manejo del Sesgo
+
+
+
+Carolina Salinas
+David Mora Fierro
+Juan Nikolas Hernández 
+Johana Iden Lambuley Contreras
+
+
+ Jaider Ospina
+
+
+
+Maestría En Ciberseguridad y Ciberdefensa
+
+
+
+Escuela Superior de Guerra “General Rafael Reyes Prieto”
+Bogotá D.C., Colombia
+2026 
+
+Contenido
+Roles asignados	3
+Respuestas analíticas y fundamentadas a las preguntas clave del caso asignado y retos metodológicos	4
+Bitácora de Triaje y Justificación Técnica de la Intervención.	6
+Registro de Cadena de Custodia y Trazabilidad (Anexo B, ISO 27037).	6
+
+
+
+ 
+
+Contexto y Roles asignados
+
+Se ha detectado una fuga masiva de información clasificada y señales de persistencia avanzada (APT) en la sede de enlace de una agencia de mando y control del sector defensa. La alerta temprana sugiere que se han utilizado credenciales comprometidas y dispositivos no autorizados para exfiltrar fragmentos de planes operacionales hacia redes externas. El equipo forense recibe un mandato judicial/militar y un briefing inicial con tiempo limitado para intervenir y asegurar los potenciales elementos de evidencia física y lógica.
+
+Referencia Operacional: Caso OPE-DEF-2026-089.
+Durante una inspección contrainteligencia imprevista en un Puesto de Mando Unificado, se interviene a un oficial de comunicaciones sospechoso de filtrar coordenadas tácticas a través de aplicaciones celulares y dispositivos externos.
+Situación de la Escena al arribar:
+•	El oficial está sentado con un teléfono inteligente Samsung Galaxy encendido sobre la mesa, con la pantalla bloqueada mediante patrón biométrico/PIN.
+•	En el bolsillo de su chaleco se encuentra una memoria USB rotulada "Música Personal - MP3". El oficial insiste repetidamente: "No pierdan el tiempo con esa memoria, solo tiene música de mi uso personal, revisen el computador del compañero que él sí maneja las órdenes de marcha" (Tentativa explícita de inducir sesgo investigativo).
+•	En una gaveta abierta se observa una tarjeta MicroSD suelta de 128 GB, adaptadores de SIM y un dongle USB Wi-Fi de alta potencia configurado en modo monitor.
+•	Las redes celulares 4G/5G y la red Wi-Fi táctica tienen cobertura total y alta potencia en el recinto
+ 
+Respuestas analíticas y fundamentadas a las preguntas clave del caso asignado y retos metodológicos
+
+A partir del caso operacional OPE-DEF-2026-089 y la normativa de la norma DIN EN ISO/IEC 27037, se detallan las respuestas metodológicas y técnicas para cada una de las preguntas planteadas:
+1.	Respecto a la manifestación del sospechoso sobre la memoria USB: ¿Cómo se fundamenta metodológicamente la actuación del DEFR frente al sesgo inherente (inherent bias) según el numeral 6.7.5 de la ISO 27037?
+•	Definición y aplicación: El numeral 6.7.5 establece que el Primer Interviniente en Evidencia Digital (DEFR) debe evitar estrictamente situaciones que puedan dar lugar a acusaciones de parcialidad inherente (inherent bias). 
+•	Aplicación al caso: La norma advierte explícitamente que un sesgo inherente ocurre cuando el DEFR selecciona o prioriza examinar un dispositivo (o descarta otro, como el equipo del compañero que sugiere el sospechoso) basándose en percepciones subjetivas formadas durante la sesión informativa o influenciadas por los comentarios del investigado. 
+•	Actuación del DEFR: El DEFR debe mantener una conducta totalmente imparcial, objetiva y metódica, documentando la coacción o intento de distracción verbal del sospechoso, pero procediendo a asegurar y evaluar todos los elementos identificados en la escena con base en criterios técnicos y no en las directrices interesadas que dicte el investigado. 
+1.	¿Cuáles son los riesgos inmediatos asociados al teléfono encendido (bloqueo por temporizador, comandos de borrado remoto vía servicios cloud, recepción de tráfico push) y qué medidas de aislamiento físico/RF y preservación energética exige la norma (numerales 6.9.2 y 7.2.2.3)?
+•	Riesgos inmediatos:
+o	Bloqueo por temporizador: El teléfono puede entrar en modo de suspensión o bloqueo automático de pantalla, dificultando o imposibilitando el acceso posterior si no se cuenta con lae biometría o el PIN. 
+o	Comandos de borrado remoto: Al haber cobertura total de redes celulares (4G/5G) y Wi-Fi, el dispositivo es vulnerable a recibir instrucciones remotas de formateo o destrucción de datos a través de servicios en la nube. 
+o	Recepción de tráfico push / Sobrescritura: La continua recepción de notificaciones, mensajes o paquetes de datos modifica los registros y archivos temporales en la memoria volátil. 
+•	Medidas de aislamiento físico/RF y preservación energética:
+o	Aislamiento de señales (RF): Se debe impedir la interacción del dispositivo con redes inalámbricas mediante el uso de una bolsa o jaula de Faraday, o un área blindada contra radiofrecuencias. 
+o	Preservación energética: Como el aislamiento de señal puede apagar el dispositivo o agotar rápidamente la batería, la norma exige asegurar el suministro de energía auxiliar al equipo mientras se encuentra aislado, siempre que los recursos lo permitan. 
+2.	Si el teléfono se coloca dentro de una bolsa/jaula de Faraday: ¿Qué ocurre con el consumo de batería debido al incremento de potencia de emisión y cómo debe proceder el DEFR para evitar la pérdida del estado encendido (numeral 6.9.2 nota técnica)?
+•	Consumo de batería: De acuerdo con la nota técnica del numeral 6.9.2, al introducir un teléfono móvil en una bolsa Faraday o contenedor con protección de radiofrecuencia, el dispositivo detecta la pérdida total de señal y eleva al máximo la potencia de emisión de sus antenas en un intento constante por reconectarse a las torres celulares o redes Wi-Fi. Esto provoca un incremento acelerado y drástico en el consumo de batería. 
+•	Procedimiento del DEFR: Para evitar que el dispositivo se apague por agotamiento de energía —lo que provocaría la pérdida irreversible de los datos volátiles alojados en la memoria RAM— el DEFR debe proveer una fuente de energía auxiliar (como una batería portátil compatible conectada mediante un cable blindado adecuado o adaptadores especiales) mientras el teléfono permanece dentro del aislamiento de Faraday, en la medida en que los recursos operativos lo permitan. 
+3.	Para la tarjeta MicroSD y la memoria USB: Describir la secuencia de preservación física (materiales antiestáticos, precintos) y adquisición forense (bloqueador de escritura y cálculo de hash). Secuencia de preservación física y adquisición forense para la tarjeta MicroSD y la memoria USB — Numerales 5.4.4, 6.9.3 y 7.1.3.5
+•	Preservación Física:
+o	Protección antiestática: Al ser dispositivos electrónicos sensibles a descargas electrostáticas (ESD), deben ser manipulados con guantes libres de pelusa y almacenados en bolsas o contenedores antiestáticos. 
+o	Embalaje y etiquetado: Deben etiquetarse con etiquetas a prueba de manipulaciones (tamper-evident). Las etiquetas nunca deben colocarse sobre componentes mecánicos ni cubrir información esencial como números de serie, marca o modelo. 
+o	Cadena de custodia: Registrar inmediatamente el identificador único, ubicación exacta del hallazgo (ej. gaveta abierta) y mantener el documento de cadena de custodia. 
+•	Adquisición Forense:
+o	Bloqueo de escritura: Antes de conectar los soportes a una estación de trabajo forense, se debe utilizar obligatoriamente un bloqueador de escritura físico o por software (write-blocker) para garantizar que los datos originales no sufran ninguna alteración o modificación durante el proceso. 
+o	Creación de imagen y cálculo de Hash: Se debe realizar una copia bit a bit (imagen forense) de los medios y generar funciones de verificación matemática (valores hash, como MD5, SHA-1 o SHA-256) antes y después de la adquisición, comprobando que coincidan exactamente para garantizar la integridad, autenticidad y admisibilidad legal de la evidencia. 
+
+
+Bitácora de Triaje y Justificación Técnica de la Intervención.
+ 
+Registro de Cadena de Custodia y Trazabilidad (Anexo B, ISO 27037).
+ 
+ 
 
