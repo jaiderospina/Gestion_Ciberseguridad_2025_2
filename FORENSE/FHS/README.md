@@ -1189,6 +1189,15 @@ sudo chown -R usuario:usuario /
 Estos comandos pueden destruir el sistema.
 
 ---
+# RECURSO DESARROLLO TALLER
+
+En caso de no contra con linux en su equipo de trabajo hacer uso de recursos como:
+
+- https://bellard.org/jslinux/
+- https://shell.cloud.google.com/
+
+
+---
 
 # 29. Resumen general
 
