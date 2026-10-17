@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Permisos POSIX</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; background: #0f172a; color: #f8fafc; display: flex; justify-content: center; padding: 2rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; max-width: 600px; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); }
+    h2 { margin-top: 0; color: #38bdf8; text-align: center; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+    .column { background: #0f172a; padding: 1rem; border-radius: 6px; border: 1px solid #334155; text-align: center; }
+    .column h4 { margin: 0 0 0.5rem 0; color: #94a3b8; }
+    label { display: block; margin: 0.5rem 0; cursor: pointer; user-select: none; }
+    .results { background: #0f172a; border: 1px solid #334155; border-radius: 6px; padding: 1rem; font-family: monospace; font-size: 1.1rem; }
+    .row { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
+    .val { color: #4ade80; font-weight: bold; }
+    .command { background: #020617; padding: 0.5rem; border-radius: 4px; margin-top: 0.5rem; color: #facc15; }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Simulador de Permisos POSIX</h2>
+  <div class="grid">
+    <div class="column">
+      <h4>Usuario (u)</h4>
+      <label><input type="checkbox" id="ur" checked onchange="calcular()"> Lectura (r=4)</label>
+      <label><input type="checkbox" id="uw" checked onchange="calcular()"> Escritura (w=2)</label>
+      <label><input type="checkbox" id="ux" onchange="calcular()"> Ejecución (x=1)</label>
+    </div>
+    <div class="column">
+      <h4>Grupo (g)</h4>
+      <label><input type="checkbox" id="gr" checked onchange="calcular()"> Lectura (r=4)</label>
+      <label><input type="checkbox" id="gw" onchange="calcular()"> Escritura (w=2)</label>
+      <label><input type="checkbox" id="gx" onchange="calcular()"> Ejecución (x=1)</label>
+    </div>
+    <div class="column">
+      <h4>Otros (o)</h4>
+      <label><input type="checkbox" id="or" onchange="calcular()"> Lectura (r=4)</label>
+      <label><input type="checkbox" id="ow" onchange="calcular()"> Escritura (w=2)</label>
+      <label><input type="checkbox" id="ox" onchange="calcular()"> Ejecución (x=1)</label>
+    </div>
+  </div>
+
+  <div class="results">
+    <div class="row"><span>Cadena Simbólica:</span><span id="sym" class="val">-rw-rw----</span></div>
+    <div class="row"><span>Representación Octal:</span><span id="oct" class="val">660</span></div>
+    <div class="row"><span>Representación Decimal:</span><span id="dec" class="val">432</span></div>
+    <div class="command" id="cmd">chmod 660 archivo.txt</div>
+  </div>
+</div>
+
+<script>
+function calcular() {
+  const ur = document.getElementById('ur').checked ? 4 : 0;
+  const uw = document.getElementById('uw').checked ? 2 : 0;
+  const ux = document.getElementById('ux').checked ? 1 : 0;
+  const u = ur + uw + ux;
+
+  const gr = document.getElementById('gr').checked ? 4 : 0;
+  const gw = document.getElementById('gw').checked ? 2 : 0;
+  const gx = document.getElementById('gx').checked ? 1 : 0;
+  const g = gr + gw + gx;
+
+  const opr = document.getElementById('or').checked ? 4 : 0;
+  const opw = document.getElementById('ow').checked ? 2 : 0;
+  const opx = document.getElementById('ox').checked ? 1 : 0;
+  const o = opr + opw + opx;
+
+  const octal = `${u}${g}${o}`;
+  const decimal = (u * 64) + (g * 8) + o;
+
+  const symU = (ur ? 'r' : '-') + (uw ? 'w' : '-') + (ux ? 'x' : '-');
+  const symG = (gr ? 'r' : '-') + (gw ? 'w' : '-') + (gx ? 'x' : '-');
+  const symO = (opr ? 'r' : '-') + (opw ? 'w' : '-') + (opx ? 'x' : '-');
+  const symbol = `-${symU}${symG}${symO}`;
+
+  document.getElementById('oct').innerText = octal;
+  document.getElementById('dec').innerText = decimal;
+  document.getElementById('sym').innerText = symbol;
+  document.getElementById('cmd').innerText = `chmod ${octal} archivo.txt`;
+}
+calcular();
+</script>
+
+</body>
+</html>
