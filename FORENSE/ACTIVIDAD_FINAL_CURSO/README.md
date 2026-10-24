@@ -1,4 +1,4 @@
-## Actividad Final de Curso
+<h1 align="center">Actividad Final de Curso</h1>
 
 # Taller: Marcos Normativos y Aplicación Técnica en Informática Forense
 
